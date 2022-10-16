@@ -1,0 +1,55 @@
+[
+    {
+        "_id": "1ae22ff0",
+        "title": "Embrace The Melting Times",
+        "year": "2020",
+        "category": "fictional story and video",
+        "duration": "9'22''",
+        "link": "https://vimeo.com/419281585",
+        "description": ""
+     },
+     {
+        "_id":"1ae22ff1",
+        "title":"To Inhabit or To Fill Oneself",
+        "year": "2020",
+        "category": "fictional story",
+        "link": "https://softeismagazine.com/shop/issue02/"
+     },
+     {
+        "_id": "1ae22ff2",
+        "title": "We Should Fear Thirst",
+        "year": "2019",
+        "category": "performance, audiovideo installation",
+        "duration": "time variable",
+        "description": "Performance presented at SomoS Art Space, in occasion of “Un/real Desires”",
+        "credits" : "Photography: Kimiya Nik"
+     },
+     {
+        "_id": "1ae22ff3",
+        "title": "Vivid Impressions",
+        "year": "2018",
+        "category": "installation",
+        "material": "sublimation print on microfiber, polyester and polystyrene filling",
+        "dimensions": "variable dimensions",
+        "description": ""
+     },
+     {
+        "_id": "1ae22ff4",
+        "title": "A Moment of Greatest Proximity and Greatest Distance",
+        "year": "2018",
+        "category": "performative sculpture",
+        "material": "acrylic enamel on PVC",
+        "link": "https://vimeo.com/291452408",
+        "description": "The project has been developed in collaboration with Nouvelle Collection Paris, curated by Sarah Nefissa Belhadjali.",
+        "credits": ["Photography: Alex Huanfa Cheng, Romain Moncet", "Models: Maéva Prigent, Sofia Lautrec"]
+     },
+     {
+        "_id": "1ae22ff5",
+        "title": "Lonely Girl Phenomenology",
+        "year": "2017",
+        "category": "poem and video",
+        "duration": "7'11''",
+        "link": "https://vimeo.com/227574710",
+        "description": ""
+     }
+]
