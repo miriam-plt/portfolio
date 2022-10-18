@@ -1,8 +1,72 @@
 .contact-form {
     margin-top: 15em;
     margin-left: 7em;
-}
+    width: 700px;
+
 
 h5 {
     font-size: 25px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin-bottom: 10px;
+        overflow: hidden;
+        display: block;
+        position: relative;
+        opacity: 0;
+        animation: fadeInUp 1s 0.5s;
+        animation-fill-mode: forwards;
+        clear: both;
+    }
+
+    li.half {
+        width: 49%;
+        margin-left: 2%;
+        float: left;
+        clear: none;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}
+
+input[type='text'],
+input[type='email'] {
+    width: 100%;
+    border: 0;
+    background-color: bisque;
+    height: 50px;
+    font-size: 16px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    border: 0;
+    background-color: bisque;
+    height: 50px;
+    padding: 20px;
+    min-height: 150px;
+    box-sizing: border-box;
+}
+
+.button {
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid black;
+    float: right;
+    border-radius: 4px;
+}
+
 }
