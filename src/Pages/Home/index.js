@@ -7,7 +7,8 @@ const Home = () => {
         <Navbar />
         <div className='img-container'>
             <img className='work-img' src={image} alt='test' />
-            <img className='work2-img' src={image} alt='test' />
+            <img className='disappear work2-img' src={image} alt='test' />
+            <img className='disappear work3-img' src={image} alt='test' />
         </div>
     </div>
 }

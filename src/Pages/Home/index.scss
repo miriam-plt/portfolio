@@ -8,14 +8,23 @@
     width: 20%;
     margin-left: auto;
     opacity: 1.0;
-    transition: 1s ;
-    
+    transition: 1s ;  
 }
 
 .work2-img {
     width: 20%;
     margin-left: auto;
     margin-right: auto;
+    transition: 1s;
+}
+
+.work3-img {
+    width: 20%;
+    margin-right: auto;
+    transition: 1s;
+}
+
+.disappear {
     opacity: 1.0;
     transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
@@ -26,10 +35,20 @@
     transform: scale(1.2);
 }
 
-.work-img:hover + .work2-img{
+.work2-img:hover {
+    transform: scale(1.2);
+}
+
+.work3-img:hover {
+    transform: scale(1.2);
+}
+
+.work-img:hover + .disappear {
     opacity: 0;
     transition: opacity .55s ease-in-out;
     -moz-transition: opacity .55s ease-in-out;
     -webkit-transition: opacity .55s ease-in-out;
 }
+
+
 
