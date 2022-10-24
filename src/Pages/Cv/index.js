@@ -8,6 +8,9 @@ const Cv = () => {
         <div className='cv'>
             <div>
                 <div className='cv-section education'>
+                    <h4>Miriam Poletti</h4>
+                    <h6>Visual Artist, Writer, Programmer</h6>
+                    <h6>Berlin / Milan</h6>
                     <h5>Education</h5>
                     <p><b>2021</b> Advanced Master Course, The Posthuman & New Materialism, Class of Rosi Braidotti, Utrecht University, Netherland</p>
                     <p><b>2016</b> Master of Fine Arts (with honors), Brera Academy, Milan, Italy</p>
@@ -60,22 +63,22 @@ const Cv = () => {
 
                 <div className='cv-section publications'>
                     <h5>Publications as author</h5>
-                    <p><i>“To Inhabit or To Fill Oneself”</i>, SOFT EIS Issue 02: Identity, Liselotte Dossenbach and Maïté Moloney (eds.), Berlin, 2021, pp. 287-288 <a href="https://softeismagazine.com/shop/issue02/" target="_blank" rel="noreferrer"> 🔗 </a> </p>
-                    <p><i>“Lonely Girl Phenomenology”</i>, Love & Politics, Evgenia Giannopoulou and Hannes Schumacher (eds.), Freigeist Verlag Berlin, 2018, pp. 40-46 <a href="http://freigeist-verlag.net/buecher/love-politics/" target="_blank" rel="noreferrer"> 🔗 </a> </p>
+                    <p><b>2021</b><i>“To Inhabit or To Fill Oneself”</i>, SOFT EIS Issue 02: Identity, Liselotte Dossenbach and Maïté Moloney (eds.), Berlin, 2021, pp. 287-288 <a href="https://softeismagazine.com/shop/issue02/" target="_blank" rel="noreferrer"> 🔗 </a> </p>
+                    <p><b>2018</b><i>“Lonely Girl Phenomenology”</i>, Love & Politics, Evgenia Giannopoulou and Hannes Schumacher (eds.), Freigeist Verlag Berlin, 2018, pp. 40-46 <a href="http://freigeist-verlag.net/buecher/love-politics/" target="_blank" rel="noreferrer"> 🔗 </a> </p>
                 </div>
             </div>
 
             <div>
                 <div className='cv-section press'>
                     <h5>Press and publications</h5>
-                    <p>Mini Interview with Damaris Athene, Private View, May 2022 <a href="https://www.instagram.com/p/Cc5CShIoIOX/" target="_blank" rel="noreferrer"> 🔗 </a> </p>
-                    <p>Irene Ramón, <i>“When Art, Fashion and Performance Collide”</i>, Metal Magazine, January 2019 <a href="https://metalmagazine.eu/en/post/interview/sarah-nefissa-belhadjali-when-art-fashion-and-performance-collide" target="_blank" rel="noreferrer"> 🔗 </a> </p>
-                    <p>Exclusive Feature, <i>“Patatas Guerra”</i>, Earth Sciences, April 2018 <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> 🔗 </a> </p>
-                    <p>Artburst Berlin (ed.), <i>“It's My Pleasure”</i>, April 2018, exhibition catalogue</p>
-                    <p>Jackie Liu (eds.), <i>“e-stranged love”</i>, February 2018 <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer"> 🔗 </a> </p>
-                    <p>Brera Academy, <i>“Salon 2015, Giovani artisti dell'Accademia di Brera Milano”</i>, April 2015, exhibition catalogue</p>
-                    <p>Beth Siveyer (ed.), <i>“Girls Get Busy, Feminist Art and Writing”</i>, Issue n. 23, November 2014 <a href="https://issuu.com/ggbzine/docs/ggb23" target="_blank" rel="noreferrer"> 🔗 </a> </p>
-                    <p>Giovanna Cassese and Erminia Mitrano (eds.), <i>“Prima Biennale di incisione, Premio Bruno Starita”</i>, January 2014, exhibition catalogue</p>
+                    <p><b>2022</b> Mini Interview with Damaris Athene, Private View, May 2022 <a href="https://www.instagram.com/p/Cc5CShIoIOX/" target="_blank" rel="noreferrer"> 🔗 </a> </p>
+                    <p><b>2019</b> Irene Ramón, <i>“When Art, Fashion and Performance Collide”</i>, Metal Magazine, January 2019 <a href="https://metalmagazine.eu/en/post/interview/sarah-nefissa-belhadjali-when-art-fashion-and-performance-collide" target="_blank" rel="noreferrer"> 🔗 </a> </p>
+                    <p><b>2018</b> Exclusive Feature, <i>“Patatas Guerra”</i>, Earth Sciences, April 2018 <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> 🔗 </a> </p>
+                    <p><b>2018</b> Artburst Berlin (ed.), <i>“It's My Pleasure”</i>, April 2018, exhibition catalogue</p>
+                    <p><b>2018</b> Jackie Liu (eds.), <i>“e-stranged love”</i>, February 2018 <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer"> 🔗 </a> </p>
+                    <p><b>2015</b> Brera Academy, <i>“Salon 2015, Giovani artisti dell'Accademia di Brera Milano”</i>, April 2015, exhibition catalogue</p>
+                    <p><b>2014</b> Beth Siveyer (ed.), <i>“Girls Get Busy, Feminist Art and Writing”</i>, Issue n. 23, November 2014 <a href="https://issuu.com/ggbzine/docs/ggb23" target="_blank" rel="noreferrer"> 🔗 </a> </p>
+                    <p><b>2014</b> Giovanna Cassese and Erminia Mitrano (eds.), <i>“Prima Biennale di incisione, Premio Bruno Starita”</i>, January 2014, exhibition catalogue</p>
                 </div>
 
                 <div className='cv-section collaborations'>
