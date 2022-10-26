@@ -2,6 +2,7 @@ import './index.scss';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Navbar from '../../components/Navbar';
+import image from '../../images/img-02.jpg';
 
 const Contact = () => {
     const form = useRef();
@@ -22,8 +23,9 @@ const Contact = () => {
       };
 
 
-    return <div className='container'>
+    return <div>
         <Navbar />
+        <div className='container'>
         <div className='contact-form'>
             <h5>Contact me</h5>
             <form ref={form} onSubmit={sendEmail}>
@@ -45,6 +47,8 @@ const Contact = () => {
                     </li>
                 </ul>
             </form>
+        </div>
+        <img className='contact-pic' src={image} alt='test' />
         </div>
     </div>
 }

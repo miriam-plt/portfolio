@@ -1,6 +1,8 @@
 .cv {
     margin-left: 4em;
     margin-right: 4em;
+    padding-top: 6%;
+    width: 100%;
     
     @media screen and (min-width:320px) and (max-width: 1025px)  {
         margin-top: 14em;
@@ -55,4 +57,5 @@ b {
 
 a {
     text-decoration: none;
+    font-size: 10px;
 }

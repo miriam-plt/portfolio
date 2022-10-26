@@ -22,7 +22,8 @@ img {
     width: 24%;
     margin-left: auto;
     opacity: 1.0;
-    transition: 1s ;  
+    transition: 1s;  
+    cursor: pointer;
     
     .img-unselected {
         opacity: 0;
