@@ -6,7 +6,7 @@
 
 .contact-form {
     margin-top: 15em;
-    margin-left: 7em;
+    
     
 
     @media (max-width: 1025px) {
@@ -14,6 +14,7 @@
     }
 
     @media (min-width:1025px) {
+        margin-left: 7em;
         width: 700px;
     }
 
