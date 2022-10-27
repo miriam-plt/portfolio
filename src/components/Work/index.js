@@ -5,9 +5,7 @@ function Work(props) {
 
     return (
         <div>
-            <h1>{work.title}</h1>
-            <p>{work.year}</p>
-            <p>{work.category}</p>
+            <h1 className='title'>{work.title}</h1>
         </div>
     );
 };

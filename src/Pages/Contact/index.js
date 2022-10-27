@@ -2,7 +2,7 @@ import './index.scss';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Navbar from '../../components/Navbar';
-import image from '../../images/img-02.jpg';
+import image from '../../images/studio-pic.jpg';
 
 const Contact = () => {
     const form = useRef();
