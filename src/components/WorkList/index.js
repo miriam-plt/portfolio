@@ -1,22 +1,24 @@
 import './index.scss';
-import { useState } from 'react';
+import { NavLink } from "react-router-dom";
 import Navbar from '../Navbar';
 import Work from '../Work';
 import WorksData from '../../assets/data/works-data.json';
 
 function WorkList() {
-    // eslint-disable-next-line
-    const [works, setWorks] = useState(WorksData);
 
     return (
         <div>
         <Navbar />
-        {works.map(work => {
+        <div className='work-list'>
+        {WorksData.map(work => {
             return (
-            <div>
+            <NavLink to={`/${work._id}`}>
+            <div className='work-title'>
                 <Work key={work._id} work={work} />
-            </div>)
+            </div>
+            </NavLink>)
         })}
+        </div>
         </div>
     )
 }

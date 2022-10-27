@@ -1,6 +1,6 @@
 [
     {
-        "_id": "1ae22ff0",
+        "_id": "melting-times",
         "title": "Embrace The Melting Times",
         "year": "2020",
         "category": "fictional story and video",
@@ -9,14 +9,14 @@
         "description": ""
      },
      {
-        "_id":"1ae22ff1",
+        "_id":"inhabit-or-fill",
         "title":"To Inhabit or To Fill Oneself",
         "year": "2020",
         "category": "fictional story",
         "link": "https://softeismagazine.com/shop/issue02/"
      },
      {
-        "_id": "1ae22ff2",
+        "_id": "fear-thirst",
         "title": "We Should Fear Thirst",
         "year": "2019",
         "category": "performance, audiovideo installation",
@@ -25,7 +25,7 @@
         "credits" : "Photography: Kimiya Nik"
      },
      {
-        "_id": "1ae22ff3",
+        "_id": "vivid-impressions",
         "title": "Vivid Impressions",
         "year": "2018",
         "category": "installation",
@@ -34,7 +34,7 @@
         "description": ""
      },
      {
-        "_id": "1ae22ff4",
+        "_id": "proximity-distance",
         "title": "A Moment of Greatest Proximity and Greatest Distance",
         "year": "2018",
         "category": "performative sculpture",
@@ -44,7 +44,7 @@
         "credits": ["Photography: Alex Huanfa Cheng, Romain Moncet", "Models: Maéva Prigent, Sofia Lautrec"]
      },
      {
-        "_id": "1ae22ff5",
+        "_id": "lonely-girl-phenomenology",
         "title": "Lonely Girl Phenomenology",
         "year": "2017",
         "category": "poem and video",
