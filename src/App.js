@@ -2,8 +2,8 @@ import './App.scss';
 import { Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import Cv from './Pages/Cv';
-import About from './Pages/About';
 import Contact from './Pages/Contact';
+import WorkList from './components/WorkList';
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cv" element={<Cv />} />
-        <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/works" element={<WorkList />} />
       </Routes>
     </div>
   );

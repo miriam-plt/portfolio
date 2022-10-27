@@ -6,11 +6,22 @@ const Cv = () => {
         <Navbar />
 
         <div className='cv'>
-            <div>
+
                 <div className='cv-section education'>
                     <h4>Miriam Poletti</h4>
-                    <h6>Visual Artist, Writer, Programmer</h6>
-                    <h6>Berlin / Milan</h6>
+                    <div className='about'>
+                    <h6>Miriam Poletti (b. 1991, pronouns she/they) lives and works in Berlin, Germany.</h6>
+                    <br></br>
+                    <h6>Her artistic practice is interdisciplinary and includes photography, sculpture, video and creative writing. 
+                    Their work seeks to question notions of tenderness, fragility and sociality on both a communal and individual level, 
+                    serving as an embodied methodology to create new models of social interaction. </h6>
+                    <h6>The notion of trauma plays a generative and creative role in her production. 
+                    The body, investigated in its minimal alterations, is soft, weak, porous and easily shaped or even bruised by the proximity of the others. 
+                    The audience is invited to interact physically and viscerally with the works, squeezing or gently touching them, leaving their temporary 
+                    imprint on them, drinking and consuming them, wearing them, making them their own. 
+                    The skin becomes a site of possibility in which the nature of the encounter is established through the performative process of touching.</h6>
+                </div>
+
                     <h5>Education</h5>
                     <p><b>2021</b> Advanced Master Course, The Posthuman & New Materialism, Class of Rosi Braidotti, Utrecht University, Netherland</p>
                     <p><b>2016</b> Master of Fine Arts (with honors), Brera Academy, Milan, Italy</p>
@@ -39,9 +50,7 @@ const Cv = () => {
                     <p><b>2016</b> <i>Era pacifica pare</i>, Ricas Award, Careof, Milan, Italy</p>
                     <p><b>2015</b> <i>Salon</i>, University of Milano Bicocca, Milan, Italy</p>
                 </div>
-            </div>
-
-            <div>
+            
                 <div className='cv-section screenings'>
                     <h5>Video screenings, performances & artist talks</h5>
                     <p><b>2020</b> SCREENING <i>What is Fear?</i>, Hošek Contemporary, Berlin, Germany</p>
@@ -66,9 +75,7 @@ const Cv = () => {
                     <p><b>2021</b><i>“To Inhabit or To Fill Oneself”</i>, SOFT EIS Issue 02: Identity, Liselotte Dossenbach and Maïté Moloney (eds.), Berlin, 2021, pp. 287-288 <a href="https://softeismagazine.com/shop/issue02/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
                     <p><b>2018</b><i>“Lonely Girl Phenomenology”</i>, Love & Politics, Evgenia Giannopoulou and Hannes Schumacher (eds.), Freigeist Verlag Berlin, 2018, pp. 40-46 <a href="http://freigeist-verlag.net/buecher/love-politics/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
                 </div>
-            </div>
-
-            <div>
+            
                 <div className='cv-section press'>
                     <h5>Press and publications</h5>
                     <p><b>2022</b> Mini Interview with Damaris Athene, Private View, May 2022 <a href="https://www.instagram.com/p/Cc5CShIoIOX/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
@@ -87,10 +94,8 @@ const Cv = () => {
                     <p><b>2020</b> <i>Patatas Guerra s02</i>, nomadic exhibition series, Madrid, Berlin, Carrara <a href="https://www.patatasguerra.com/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
                     <p><b>2018</b> <i>Patatas Guerra</i>, nomadic exhibition series, Milan, London, Venice, Dublin <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
                 </div>
-            </div>
 
         </div>
-
     </div>
 }
 
