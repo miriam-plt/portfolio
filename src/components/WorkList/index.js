@@ -13,7 +13,7 @@ function WorkList() {
             <div className='work-list'>
                 {WorksData.map(work => {
                     return (
-                    <NavLink to={`/${work._id}`}>
+                    <NavLink to={`/works/${work._id}`}>
                         <div className='work-title'>
                             <Work key={work._id} work={work} />
                         </div>
