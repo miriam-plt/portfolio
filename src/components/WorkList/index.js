@@ -18,15 +18,7 @@ function WorkList() {
                     <NavLink to={`/works/${work._id}`}>
                         <div className='menu__item-link'>
                             <Work key={work._id} className='menu__title' work={work} />
-                                <img className='menu__item-img' src={work.image} alt='work' />
-                                    <div class="marquee">
-                                        <div class="marquee__inner" aria-hidden="true">
-                                            <span>Experiments</span>
-                                            <span>Experiments</span>
-                                            <span>Experiments</span>
-                                            <span>Experiments</span>
-                                        </div>
-                                    </div>
+                                <img className='menu__item-img' src={work.image} alt='work' />                                                         
                         </div>
                     </NavLink>)
                 })}
