@@ -4,22 +4,34 @@ import Navbar from '../Navbar';
 import Work from '../Work';
 import WorksData from '../../assets/data/works-data.json';
 
+
 function WorkList() {
 
     return (
         <div>
         <Navbar />
 
-            <div className='work-list'>
+        <div className='menu'>
+            <div className='menu__item'>
                 {WorksData.map(work => {
                     return (
                     <NavLink to={`/works/${work._id}`}>
-                        <div className='work-title'>
-                            <Work key={work._id} work={work} />
+                        <div className='menu__item-link'>
+                            <Work key={work._id} className='menu__title' work={work} />
+                                <img className='menu__item-img' src={work.image} alt='work' />
+                                    <div class="marquee">
+                                        <div class="marquee__inner" aria-hidden="true">
+                                            <span>Experiments</span>
+                                            <span>Experiments</span>
+                                            <span>Experiments</span>
+                                            <span>Experiments</span>
+                                        </div>
+                                    </div>
                         </div>
                     </NavLink>)
                 })}
             </div>
+        </div>
 
         </div>
     )
