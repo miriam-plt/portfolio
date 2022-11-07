@@ -1,11 +1,12 @@
 .container {
     display: flex;
-    padding-top: 6%;
+    padding-top: 9%;
     justify-content: center;
 }
 
 .contact-form {
-    margin-top: 15em;
+    margin-top: 6em;
+    margin-right: 5em;
     
     
 
@@ -18,9 +19,7 @@
         width: 700px;
     }
 
-    h5 {
-        font-size: 25px;
-    }
+
 
     ul {
         padding: 0;
@@ -61,7 +60,6 @@
         font-size: 16px;
         padding: 0 20px;
         box-sizing: border-box;
-        border-radius: 5px;
     }
 
     input:focus::placeholder {
@@ -85,7 +83,6 @@
         padding: 20px;
         min-height: 150px;
         box-sizing: border-box;
-        border-radius: 5px;
         resize: none;
     }
 
@@ -106,7 +103,6 @@
         border: 1px solid #5e4c49;
         color: #5e4c49;
         float: right;
-        border-radius: 24px;
         cursor: pointer;
         transition: all .3s;
     }
@@ -118,6 +114,13 @@
 
 }
 
+.contact-me {
+    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+    -webkit-font-smoothing: antialiased;
+    color: #f4f0f0;
+    font-size: 35px; 
+}
+
 .contact-pic {
 
     @media (max-width: 1025px) {
@@ -126,6 +129,7 @@
 
     @media (min-width:1025px) {
         object-fit: cover;
+        margin-right: 5em;
         width: 400px;
         height: 600px;
     }

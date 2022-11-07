@@ -27,7 +27,7 @@ const Contact = () => {
         <Navbar />
         <div className='container'>
         <div className='contact-form'>
-            <h5>Contact me</h5>
+            <h5 className='contact-me'>Contact me</h5>
             <form ref={form} onSubmit={sendEmail}>
                 <ul>
                     <li className='half'>
