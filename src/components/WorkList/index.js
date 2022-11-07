@@ -15,7 +15,7 @@ function WorkList() {
             <div className='menu__item'>
                 {WorksData.map(work => {
                     return (
-                    <NavLink to={`/works/${work._id}`}>
+                    <NavLink to={`/works/${work._id}`} key={work._id}>
                         <div className='menu__item-link'>
                             <Work key={work._id} className='menu__title' work={work} />
                                 <img className='menu__item-img' src={work.image} alt='work' />                                                         
