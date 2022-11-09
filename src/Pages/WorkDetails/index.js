@@ -25,6 +25,7 @@ function WorkDetails() {
                 <h1 className='work__detail-title'>{work.title}</h1>
                 <p className='work__detail-basics'>{work.category}{work.measurement ? '  |  ' + work.measurement : ''} {work.material ? '  |  ' + work.material : ''}  |  {work.year}</p>
                 <p className='work__detail-description'>{work.description}</p>
+                <p className='work__detail-description'>{work.details}</p>
                 {work.link && <NavLink className='work__detail-link' to={work.link}><p>LINK</p></NavLink>}
                 {work.credits && <div><p className='work__detail-credits'>{work.credits[0]}</p><p className='work__detail-credits'>{work.credits[1]}</p></div>}
                 </div>

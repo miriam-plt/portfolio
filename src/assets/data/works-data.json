@@ -6,7 +6,8 @@
         "category": "fictional story and video",
         "measurement": "9'22''",
         "link": "https://vimeo.com/419281585",
-        "description": "blabla",
+        "description": "The video presents the image of a moving body filtered through a liquid. A voice, likewise filtered, narrates a story that is simultaneously autobiographical and fictional. It is a first-person narrative of the experience of a liquid, amorphous and ever-changing body.",
+        "details": "Screening on the occasion of the film festival “ΤΙ ΕΙΝΑΙ ΦΟΒΟΣ; WHAT IS FEAR?”, Hošek Contemporary, Berlin",
         "image": "../../images/img01.png"
      },
      {
@@ -15,7 +16,8 @@
         "year": "2020",
         "category": "fictional story",
         "link": "https://softeismagazine.com/shop/issue02/",
-        "description": "blabla",
+        "description": "This short story is partly autobiographical and partly fictional. It is a first-person narrative of the experience of a liquid, amorphous and ever-changing body.",
+        "details": "Written for SOFT EIS issue 02 “Identity”",
         "image": "../../images/img02.png"
      },
      {
@@ -24,7 +26,8 @@
         "year": "2019",
         "category": "performance, audiovideo installation",
         "measurement": "time variable",
-        "description": "Performance presented at SomoS Art Space, in occasion of “Un/real Desires”",
+        "description": "If there is something we have in common, it is the liquidity of our body. This embodied hydrological cycle is every time different, although the water we are is always coming from somewhere and moving somewhere else, this water is always new, in its form, rhythm, meaning and potential.",
+        "details": "Performance presented at SomoS Art Space, in occasion of “Un/real Desires”",
         "credits" : ["Photography: Kimiya Nik"],
         "image": "../../images/img03.png"
      },
