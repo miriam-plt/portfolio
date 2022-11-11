@@ -1,5 +1,33 @@
 [
-    {
+      {
+         "_id": "vivid-impressions-care",
+         "title": "Vivid Impressions Room (Care)",
+         "year": "2022",
+         "category": "installation",
+         "description": "blablabla",
+         "image": "../../images/img04.png",
+         "img1": "../../images/vivid/vivid01.jpeg",
+         "img2": "../../images/vivid/vivid02.jpeg",
+         "img3": "../../images/vivid/vivid03.jpeg",
+         "img4": "../../images/vivid/vivid04.jpeg"
+      },
+      {
+         "_id": "cultivating-touch",
+         "title": "Perhaps Cultivating Touch Can Still Save Us",
+         "year": "2022",
+         "category": "sculpture",
+         "material": "sublimation print on microfiber, polyester filling",
+         "measurement": "variable dimensions",
+         "description": "The video presents the image of a moving body filtered through a liquid. A voice, likewise filtered, narrates a story that is simultaneously autobiographical and fictional. It is a first-person narrative of the experience of a liquid, amorphous and ever-changing body.",
+         "image": "../../images/img01.png",
+         "img1": "../../images/melting/melting01.jpeg",
+         "img2": "../../images/melting/melting02.jpeg",
+         "img3": "../../images/melting/melting03.jpeg",
+         "img4": "../../images/melting/melting04.jpeg",
+         "img5": "../../images/melting/melting05.jpeg",
+         "img6": "../../images/melting/melting06.jpeg"
+      },
+      {
         "_id": "melting-times",
         "title": "Embrace The Melting Times",
         "year": "2020",
@@ -8,7 +36,13 @@
         "link": "https://vimeo.com/419281585",
         "description": "The video presents the image of a moving body filtered through a liquid. A voice, likewise filtered, narrates a story that is simultaneously autobiographical and fictional. It is a first-person narrative of the experience of a liquid, amorphous and ever-changing body.",
         "details": "Screening on the occasion of the film festival “ΤΙ ΕΙΝΑΙ ΦΟΒΟΣ; WHAT IS FEAR?”, Hošek Contemporary, Berlin",
-        "image": "../../images/img01.png"
+        "image": "../../images/img01.png",
+        "img1": "../../images/melting/melting01.jpeg",
+        "img2": "../../images/melting/melting02.jpeg",
+        "img3": "../../images/melting/melting03.jpeg",
+        "img4": "../../images/melting/melting04.jpeg",
+        "img5": "../../images/melting/melting05.jpeg",
+        "img6": "../../images/melting/melting06.jpeg"
      },
      {
         "_id":"inhabit-or-fill",
@@ -18,7 +52,13 @@
         "link": "https://softeismagazine.com/shop/issue02/",
         "description": "This short story is partly autobiographical and partly fictional. It is a first-person narrative of the experience of a liquid, amorphous and ever-changing body.",
         "details": "Written for SOFT EIS issue 02 “Identity”",
-        "image": "../../images/img02.png"
+        "image": "../../images/img02.png",
+        "img1": "../../images/inhabit/inhabit01.jpeg",
+        "img2": "../../images/inhabit/inhabit02.jpeg",
+        "img3": "../../images/inhabit/inhabit03.jpeg",
+        "img4": "../../images/inhabit/inhabit04.jpeg",
+        "img5": "../../images/inhabit/inhabit05.jpeg",
+        "img6": "../../images/inhabit/inhabit06.jpeg"
      },
      {
         "_id": "fear-thirst",
@@ -29,7 +69,14 @@
         "description": "If there is something we have in common, it is the liquidity of our body. This embodied hydrological cycle is every time different, although the water we are is always coming from somewhere and moving somewhere else, this water is always new, in its form, rhythm, meaning and potential.",
         "details": "Performance presented at SomoS Art Space, in occasion of “Un/real Desires”",
         "credits" : ["Photography: Kimiya Nik"],
-        "image": "../../images/img03.png"
+        "image": "../../images/img03.png",
+        "img1": "../../images/thirst/thirst01.jpeg",
+        "img2": "../../images/thirst/thirst02.jpeg",
+        "img3": "../../images/thirst/thirst03.jpeg",
+        "img4": "../../images/thirst/thirst04.jpeg",
+        "img5": "../../images/thirst/thirst05.jpeg",
+        "img6": "../../images/thirst/thirst06.jpeg",
+        "img7": "../../images/thirst/thirst07.jpeg"
      },
      {
         "_id": "vivid-impressions",
@@ -39,16 +86,11 @@
         "material": "sublimation print on microfiber, polyester and polystyrene filling",
         "measurement": "variable dimensions",
         "description": "blablabla",
-        "image": "../../images/img04.png"
-     },
-     {
-         "_id":"love-and-politics",
-         "title":"Love&Politics",
-         "year": "2018",
-         "category": "poem and photography",
-         "link": "http://freigeist-verlag.net/buecher/love-politics/",
-         "description": "blabla",
-         "image": "../../images/img01.png"
+        "image": "../../images/img04.png",
+        "img1": "../../images/vivid/vivid01.jpeg",
+        "img2": "../../images/vivid/vivid02.jpeg",
+        "img3": "../../images/vivid/vivid03.jpeg",
+        "img4": "../../images/vivid/vivid04.jpeg"
      },
      {
         "_id": "proximity-distance",
@@ -59,7 +101,13 @@
         "link": "https://vimeo.com/291452408",
         "description": "The project has been developed in collaboration with Nouvelle Collection Paris, curated by Sarah Nefissa Belhadjali.",
         "credits": ["Photography: Alex Huanfa Cheng, Romain Moncet", "Models: Maéva Prigent, Sofia Lautrec"],
-        "image": "../../images/img06.png"
+        "image": "../../images/img06.png",
+        "img1": "../../images/moment/moment01.jpeg",
+        "img2": "../../images/moment/moment02.jpeg",
+        "img3": "../../images/moment/moment03.jpeg",
+        "img4": "../../images/moment/moment04.jpeg",
+        "img5": "../../images/moment/moment05.jpeg",
+        "img6": "../../images/moment/moment06.jpeg"
      },
      {
         "_id": "lonely-girl-phenomenology",
@@ -69,6 +117,10 @@
         "measurement": "7'11''",
         "link": "https://vimeo.com/227574710",
         "description": "blabla",
-        "image": "../../images/img07.png"
+        "image": "../../images/img07.png",
+        "img1": "../../images/lonely/lonely01.jpeg",
+        "img2": "../../images/lonely/lonely02.jpeg",
+        "img3": "../../images/lonely/lonely03.jpeg",
+        "img4": "../../images/lonely/lonely04.jpeg"
      }
 ]

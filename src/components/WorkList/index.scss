@@ -16,6 +16,7 @@
 	left: 100%;
 	top: 30%;
 	transform: translate3d(calc(-100% - 6vw),-30%,0) translate3d(0,20px,0);
+    z-index: 0;
 }
 
 .menu__item-link {
@@ -24,6 +25,11 @@
     color: #f4f0f0;
     font-size: 35px;
     font-weight: 700;
+    opacity: 0;
+    animation: fadeInDown 2s 0.5s;
+    animation-fill-mode: forwards;
+    z-index: 7;
+    position: relative;
 }
 
 .menu__item-link:hover {
@@ -32,6 +38,8 @@
     color: #5e4c49;
     font-size: 35px;
     font-weight: 700;
+    
+   
 
     .menu__item-img {
         opacity: 1;

@@ -4,8 +4,13 @@
     padding-top: 6%;
 }
 
-.work__detail-img {
-    width: 20%;
+.work__card {
+    display: flex;
+    align-items: center;
+}
+
+.work__info-card {
+    width: 350px;
 }
 
 .work__detail-title {
@@ -21,3 +26,17 @@
     color: rgb(101, 101, 101);
     font-size: 10px;
 }
+
+
+
+
+.work__detail-img {
+    width: 30%;
+}
+
+.img-grid {
+  display: grid;
+  grid-template-columns: 3fr 6fr 1fr 5fr 10fr 2fr;
+  grid-template-rows: 100px auto 150px auto auto;
+}
+
