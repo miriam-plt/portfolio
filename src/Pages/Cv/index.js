@@ -20,6 +20,7 @@ const Cv = () => {
                     The audience is invited to interact physically and viscerally with the works, squeezing or gently touching them, leaving their temporary 
                     imprint on them, drinking and consuming them, wearing them, making them their own. 
                     The skin becomes a site of possibility in which the nature of the encounter is established through the performative process of touching.</h6>
+                    <br></br><h6>Miriam is an organizing member of <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer"> Dare to Care </a> and <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer"> Confronting Monuments</a>.</h6>
                 </div>
 
                     <h5>Education</h5>
