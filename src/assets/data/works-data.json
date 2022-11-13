@@ -45,22 +45,6 @@
         "img6": "../../images/melting/melting06.jpeg"
      },
      {
-        "_id":"inhabit-or-fill",
-        "title":"To Inhabit or To Fill Oneself",
-        "year": "2020",
-        "category": "fictional story",
-        "link": "https://softeismagazine.com/shop/issue02/",
-        "description": "This short story is partly autobiographical and partly fictional. It is a first-person narrative of the experience of a liquid, amorphous and ever-changing body.",
-        "details": "Written for SOFT EIS issue 02 “Identity”",
-        "image": "../../images/img02.png",
-        "img1": "../../images/inhabit/inhabit01.jpeg",
-        "img2": "../../images/inhabit/inhabit02.jpeg",
-        "img3": "../../images/inhabit/inhabit03.jpeg",
-        "img4": "../../images/inhabit/inhabit04.jpeg",
-        "img5": "../../images/inhabit/inhabit05.jpeg",
-        "img6": "../../images/inhabit/inhabit06.jpeg"
-     },
-     {
         "_id": "fear-thirst",
         "title": "We Should Fear Thirst",
         "year": "2019",

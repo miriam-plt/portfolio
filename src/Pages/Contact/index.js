@@ -20,11 +20,10 @@ const Contact = () => {
                 setStatusMessage('☺︎ Message succesfully sent!');
                 e.target.reset();
 
-                
-          }, (error) => {
+            }, (error) => {
                 console.log(error.text);
                 setStatusMessage('☹︎ Failed to send the message. Please try again.');
-          });
+            });
       };
 
 

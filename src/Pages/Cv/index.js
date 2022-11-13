@@ -55,6 +55,7 @@ const Cv = () => {
                     <p><b>2015</b> <i>Salon</i>, University of Milano Bicocca, Milan, Italy</p>
             
                 <h5>Video screenings, performances & artist talks</h5>
+                    <p><b>2022</b> SCREENING <i>De Structura AR Art Evening</i>, Ukraina väljak, Lembitu park, Tallinn, Estonia</p>
                     <p><b>2020</b> SCREENING <i>What is Fear?</i>, Hošek Contemporary, Berlin, Germany</p>
                     <p><b>2019</b> PERFORMANCE <i>“We Should Fear Thirst”, Un/real Desires</i>, SomoS Art House, Berlin, Germany</p>
                     <p><b>2018</b> SCREENING <i>Love & Politics Public Programme</i>, Chaosmos_/ 79Au, Athens, Greece</p>
