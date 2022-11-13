@@ -27,13 +27,16 @@ const Contact = () => {
         <Navbar />
         <div className='container'>
         <div className='contact-form'>
-            <h5 className='contact-me'>Contact me</h5>
+            <div className='contact-text'>
+            <h5 className='contact-h5'>Get in touch</h5>
+            <h6 className='contact-h6'>Whether it is a chat about all things art related or a potential project or opportunity you have in mind, contact me.</h6>
+            </div>
             <form ref={form} onSubmit={sendEmail}>
                 <ul>
-                    <li className='half'>
+                    <li>
                         <input type='text' name='name' placeholder='Name' required />
                     </li>
-                    <li className='half'>
+                    <li>
                         <input type='email' name='email' placeholder='Email' required />
                     </li>
                     <li>
