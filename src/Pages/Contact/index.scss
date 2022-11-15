@@ -2,20 +2,20 @@
 
 .container {
     display: flex;
-    padding-top: 12%;
+    align-items: center;
     justify-content: center;
+    align-content: center;
+    height:100vh;
 }
 
 .contact-form {
-    margin-right: 5em;
-    
-    
 
     @media (max-width: 1025px) {
         width: 300px;
     }
 
     @media (min-width:1025px) {
+        margin-right: 5em;
         margin-left: 7em;
         width: 700px;
     }
@@ -141,6 +141,13 @@
     margin-left: 0;
     margin-top: 0;
     font-size: 16px;
+}
+
+.smile {
+    color: #f0745e;
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 24px;
 }
 
 .contact-pic {

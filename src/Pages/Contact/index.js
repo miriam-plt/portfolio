@@ -52,7 +52,7 @@ const Contact = () => {
                     <li>
                         <input type='submit' className='button' value='SEND' />
                     </li>
-                    <p className='status-message'>{statusMessage}</p>
+                    <p className='status-message'><b className='smile'>{statusMessage[0]}</b>{statusMessage.slice(2)}</p>
                 </ul>
             </form>
         </div>
