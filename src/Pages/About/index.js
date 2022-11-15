@@ -1,7 +1,8 @@
 import './index.scss';
 import {useState} from 'react';
 import Navbar from '../../components/Navbar';
-import arrow from '../../images/arrow_circle_down.png';
+import arrowDown from '../../images/arrow_circle_down.png';
+import arrowTop from '../../images/arrow-back-top.png';
 
 const About = () => {
     const [eduShown, setEduShown] = useState(true);
@@ -30,10 +31,10 @@ const About = () => {
         <div className='cv'>
 
             {eduShown && <div className='cv-section education'>  
-                <h4>Miriam Poletti</h4>
+                <h5>Miriam Poletti</h5>
                     <div className='about'>
                         <h6>Miriam Poletti (she/they) lives and works in Berlin, Germany.</h6>
-                        <br></br>
+                        <br />
                         <h6>Her artistic practice is interdisciplinary and includes photography, sculpture, video and creative writing. 
                         Their work seeks to question notions of tenderness, fragility and sociality on both a communal and individual level, 
                         serving as an embodied methodology to create new models of social interaction. </h6>
@@ -42,8 +43,12 @@ const About = () => {
                         The audience is invited to interact physically and viscerally with the works, squeezing or gently touching them, leaving their temporary 
                         imprint on them, drinking and consuming them, wearing them, making them their own. 
                         The skin becomes a site of possibility in which the nature of the encounter is established through the performative process of touching.</h6>
-                        <br></br>
+                        <br />
                         <h6>Miriam is an organizing member of <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer"> Dare to Care </a> and <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer"> Confronting Monuments</a>.</h6>
+                        <br />
+                        <h6>Email: <a href="mailto:polettimiriam@gmail.com" target="_blank" rel="noreferrer"> polettimiriam@gmail.com </a> </h6>
+                        <h6 className='ig-link'>Instagram: <a href="https://www.instagram.com/miriamakaib/" target="_blank" rel="noreferrer"> @miriamakaib </a> </h6>
+                        <br />
                     </div>
 
                 <h5>Education</h5>
@@ -52,7 +57,7 @@ const About = () => {
                     <p><b>2015</b> Erasmus Exchange Semester, Graphic and Photography Department, EA Murcia School of Art, Murcia, Spain</p>
                     <p><b>2013</b> Bachelor of Fine Arts (with honors), Brera Academy, Milan, Italy</p>
 
-                <img className='arrow-down' src={arrow} alt='arrow' onClick={handleClick1} />
+                <img className='arrow' src={arrowDown} alt='arrow' onClick={handleClick1} />
                 </div>}
 
 
@@ -87,7 +92,7 @@ const About = () => {
                     <p><b>2018</b> SCREENING <i>There Are No Girls On The Internet / Localhost Gallery</i>, Now Play This Festival, London, UK</p>
                     <p><b>2017</b> SCREENING <i>Queertech.io = ART (URL, IRL)</i>, BLINDSIDE's PLAY2, Federation Square Big Screen, Melbourne, Australia</p>
 
-                <img className='arrow-down' src={arrow} alt='arrow' onClick={handleClick2} />
+                <img className='arrow' src={arrowDown} alt='arrow' onClick={handleClick2} />
             </div>}
 
 
@@ -121,7 +126,7 @@ const About = () => {
                         <p><b>2022</b> <i>miriampoletti.com</i> Personal portfolio website <a href="https://www.miriampoletti.com/" target="_blank" rel="noreferrer"> [LINK] </a></p>
                         <p><b>2022</b> <i>daretocare-art.com</i> Dare to Care art collective website <a href="https://www.patatasguerra.com/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
                     
-                    <img className='arrow-down' src={arrow} alt='arrow' onClick={handleClick3} />
+                    <img className='arrow' src={arrowTop} alt='arrow' onClick={handleClick3} />
                 </div>}
 
         </div>
