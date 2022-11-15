@@ -32,24 +32,24 @@ const About = () => {
 
             {eduShown && <div className='cv-section education'>  
                 <h5>Miriam Poletti</h5>
-                    <div className='about'>
-                        <h6>Miriam Poletti (she/they) lives and works in Berlin, Germany.</h6>
-                        <br />
-                        <h6>Her artistic practice is interdisciplinary and includes photography, sculpture, video and creative writing. 
-                        Their work seeks to question notions of tenderness, fragility and sociality on both a communal and individual level, 
-                        serving as an embodied methodology to create new models of social interaction. </h6>
-                        <h6>The notion of trauma plays a generative and creative role in her production. 
-                        The body, investigated in its minimal alterations, is soft, weak, porous and easily shaped or even bruised by the proximity of the others. 
-                        The audience is invited to interact physically and viscerally with the works, squeezing or gently touching them, leaving their temporary 
-                        imprint on them, drinking and consuming them, wearing them, making them their own. 
-                        The skin becomes a site of possibility in which the nature of the encounter is established through the performative process of touching.</h6>
-                        <br />
-                        <h6>Miriam is an organizing member of <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer"> Dare to Care </a> and <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer"> Confronting Monuments</a>.</h6>
-                        <br />
-                        <h6>Email: <a href="mailto:polettimiriam@gmail.com" target="_blank" rel="noreferrer"> polettimiriam@gmail.com </a> </h6>
-                        <h6 className='ig-link'>Instagram: <a href="https://www.instagram.com/miriamakaib/" target="_blank" rel="noreferrer"> @miriamakaib </a> </h6>
-                        <br />
-                    </div>
+                <div className='about'>
+                    <h6>Miriam Poletti (she/they) lives and works in Berlin, Germany.</h6>
+                    <br />
+                    <h6>Her artistic practice is interdisciplinary and includes photography, sculpture, video and creative writing. 
+                    Their work seeks to question notions of tenderness, fragility and sociality on both a communal and individual level, 
+                    serving as an embodied methodology to create new models of social interaction. </h6>
+                    <h6>The notion of trauma plays a generative and creative role in her production. 
+                    The body, investigated in its minimal alterations, is soft, weak, porous and easily shaped or even bruised by the proximity of the others. 
+                    The audience is invited to interact physically and viscerally with the works, squeezing or gently touching them, leaving their temporary 
+                    imprint on them, drinking and consuming them, wearing them, making them their own. 
+                    The skin becomes a site of possibility in which the nature of the encounter is established through the performative process of touching.</h6>
+                    <br />
+                    <h6>Miriam is an organizing member of <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer"> Dare to Care </a> and <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer"> Confronting Monuments</a>.</h6>
+                    <br />
+                    <h6>Email: <a href="mailto:polettimiriam@gmail.com" target="_blank" rel="noreferrer"> polettimiriam@gmail.com </a> </h6>
+                    <h6 className='ig-link'>Instagram: <a href="https://www.instagram.com/miriamakaib/" target="_blank" rel="noreferrer"> @miriamakaib </a> </h6>
+                    <br />
+                </div>
 
                 <h5>Education</h5>
                     <p><b>2021</b> Advanced Master Course, The Posthuman & New Materialism, Class of Rosi Braidotti, Utrecht University, Netherland</p>
@@ -58,7 +58,7 @@ const About = () => {
                     <p><b>2013</b> Bachelor of Fine Arts (with honors), Brera Academy, Milan, Italy</p>
 
                 <img className='arrow' src={arrowDown} alt='arrow' onClick={handleClick1} />
-                </div>}
+            </div>}
 
 
             {exhibitionsShown && <div className='cv-section exhibitions'>
@@ -97,37 +97,37 @@ const About = () => {
 
 
             {grantsShown && <div className='cv-section grants'>
-                    <h5>Grants, awards & residencies</h5>
-                        <p><b>2022</b> RESEARCH RESIDENCY De Structura, Tallinn, Estonia</p>
-                        <p><b>2016</b> AWARD Nomination Ricas Award, Milano</p>
-                        <p><b>2015</b> SCHOLARSHIP Lombardi Croci Foundation study scholarship for Fine Arts</p>
-                        <p><b>2013</b> AWARD Nomination Bruno Starita Award, Naples</p>
+                <h5>Grants, awards & residencies</h5>
+                    <p><b>2022</b> RESEARCH RESIDENCY De Structura, Tallinn, Estonia</p>
+                    <p><b>2016</b> AWARD Nomination Ricas Award, Milano</p>
+                    <p><b>2015</b> SCHOLARSHIP Lombardi Croci Foundation study scholarship for Fine Arts</p>
+                    <p><b>2013</b> AWARD Nomination Bruno Starita Award, Naples</p>
     
-                    <h5>Publications as author</h5>
-                        <p><b>2021</b><i>“To Inhabit or To Fill Oneself”</i>, SOFT EIS Issue 02: Identity, Liselotte Dossenbach and Maïté Moloney (eds.), Berlin, 2021, pp. 287-288 <a href="https://softeismagazine.com/shop/issue02/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                        <p><b>2018</b><i>“Lonely Girl Phenomenology”</i>, Love & Politics, Evgenia Giannopoulou and Hannes Schumacher (eds.), Freigeist Verlag Berlin, 2018, pp. 40-46 <a href="http://freigeist-verlag.net/buecher/love-politics/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                <h5>Publications as author</h5>
+                    <p><b>2021</b><i>“To Inhabit or To Fill Oneself”</i>, SOFT EIS Issue 02: Identity, Liselotte Dossenbach and Maïté Moloney (eds.), Berlin, 2021, pp. 287-288 <a href="https://softeismagazine.com/shop/issue02/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2018</b><i>“Lonely Girl Phenomenology”</i>, Love & Politics, Evgenia Giannopoulou and Hannes Schumacher (eds.), Freigeist Verlag Berlin, 2018, pp. 40-46 <a href="http://freigeist-verlag.net/buecher/love-politics/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
                     
-                    <h5>Press and publications</h5>
-                        <p><b>2022</b> Mini Interview with Damaris Athene, Private View, May 2022 <a href="https://www.instagram.com/p/Cc5CShIoIOX/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                        <p><b>2019</b> Irene Ramón, <i>“When Art, Fashion and Performance Collide”</i>, Metal Magazine, January 2019 <a href="https://metalmagazine.eu/en/post/interview/sarah-nefissa-belhadjali-when-art-fashion-and-performance-collide" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                        <p><b>2018</b> Exclusive Feature, <i>“Patatas Guerra”</i>, Earth Sciences, April 2018 <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                        <p><b>2018</b> Artburst Berlin (ed.), <i>“It's My Pleasure”</i>, April 2018, exhibition catalogue</p>
-                        <p><b>2018</b> Jackie Liu (eds.), <i>“e-stranged love”</i>, February 2018 <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                        <p><b>2015</b> Brera Academy, <i>“Salon 2015, Giovani artisti dell'Accademia di Brera Milano”</i>, April 2015, exhibition catalogue</p>
-                        <p><b>2014</b> Beth Siveyer (ed.), <i>“Girls Get Busy, Feminist Art and Writing”</i>, Issue n. 23, November 2014 <a href="https://issuu.com/ggbzine/docs/ggb23" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                        <p><b>2014</b> Giovanna Cassese and Erminia Mitrano (eds.), <i>“Prima Biennale di incisione, Premio Bruno Starita”</i>, January 2014, exhibition catalogue</p>
+                <h5>Press and publications</h5>
+                    <p><b>2022</b> Mini Interview with Damaris Athene, Private View, May 2022 <a href="https://www.instagram.com/p/Cc5CShIoIOX/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2019</b> Irene Ramón, <i>“When Art, Fashion and Performance Collide”</i>, Metal Magazine, January 2019 <a href="https://metalmagazine.eu/en/post/interview/sarah-nefissa-belhadjali-when-art-fashion-and-performance-collide" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2018</b> Exclusive Feature, <i>“Patatas Guerra”</i>, Earth Sciences, April 2018 <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2018</b> Artburst Berlin (ed.), <i>“It's My Pleasure”</i>, April 2018, exhibition catalogue</p>
+                    <p><b>2018</b> Jackie Liu (eds.), <i>“e-stranged love”</i>, February 2018 <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2015</b> Brera Academy, <i>“Salon 2015, Giovani artisti dell'Accademia di Brera Milano”</i>, April 2015, exhibition catalogue</p>
+                    <p><b>2014</b> Beth Siveyer (ed.), <i>“Girls Get Busy, Feminist Art and Writing”</i>, Issue n. 23, November 2014 <a href="https://issuu.com/ggbzine/docs/ggb23" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2014</b> Giovanna Cassese and Erminia Mitrano (eds.), <i>“Prima Biennale di incisione, Premio Bruno Starita”</i>, January 2014, exhibition catalogue</p>
 
-                    <h5>Collaborative projects</h5>
-                        <p><b>2021</b> SOFT EIS Presse, special limited edition cover for Issue 02, Berlin</p>
-                        <p><b>2020</b> <i>Patatas Guerra s02</i>, nomadic exhibition series, Madrid, Berlin, Carrara <a href="https://www.patatasguerra.com/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                        <p><b>2018</b> <i>Patatas Guerra</i>, nomadic exhibition series, Milan, London, Venice, Dublin <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                <h5>Collaborative projects</h5>
+                    <p><b>2021</b> SOFT EIS Presse, special limited edition cover for Issue 02, Berlin</p>
+                    <p><b>2020</b> <i>Patatas Guerra s02</i>, nomadic exhibition series, Madrid, Berlin, Carrara <a href="https://www.patatasguerra.com/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2018</b> <i>Patatas Guerra</i>, nomadic exhibition series, Milan, London, Venice, Dublin <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
 
-                    <h5>Web development</h5>
-                        <p><b>2022</b> <i>miriampoletti.com</i> Personal portfolio website <a href="https://www.miriampoletti.com/" target="_blank" rel="noreferrer"> [LINK] </a></p>
-                        <p><b>2022</b> <i>daretocare-art.com</i> Dare to Care art collective website <a href="https://www.patatasguerra.com/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                <h5>Web development</h5>
+                    <p><b>2022</b> <i>miriampoletti.com</i> Personal portfolio website <a href="https://www.miriampoletti.com/" target="_blank" rel="noreferrer"> [LINK] </a></p>
+                    <p><b>2022</b> <i>daretocare-art.com</i> Dare to Care art collective website <a href="https://www.patatasguerra.com/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
                     
-                    <img className='arrow' src={arrowTop} alt='arrow' onClick={handleClick3} />
-                </div>}
+                <img className='arrow' src={arrowTop} alt='arrow' onClick={handleClick3} />
+            </div>}
 
         </div>
     </div>
