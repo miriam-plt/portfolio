@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: flex-start;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     top: 0;
 }
 
@@ -15,7 +15,7 @@
     position: fixed;
     z-index: 99;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
 }
 
 .name-link {
@@ -23,6 +23,11 @@
     font-size: 80px;
     text-decoration: none;
     color: rgb(30, 30, 30);
+    margin-left: 10px;
+
+    @media (max-width: 1025px) {
+     font-size: 60px;   
+    }
 }
 
 .works-link {
@@ -30,6 +35,11 @@
     font-size: 60px;
     text-decoration: none;
     color: rgb(30, 30, 30);
+    margin-right: 10px;
+
+    @media (max-width: 1025px) {
+        font-size: 40px;   
+       }
 }
 
 .cv-link {
@@ -37,6 +47,11 @@
     font-size: 60px;
     text-decoration: none;
     color: rgb(30, 30, 30);
+    margin-left: 10px;
+
+    @media (max-width: 1025px) {
+        font-size: 40px;   
+       }
 }
 
 .contact-link {
@@ -44,4 +59,9 @@
     font-size: 60px;
     text-decoration: none;
     color: rgb(30, 30, 30);
+    margin-right: 10px;
+
+    @media (max-width: 1025px) {
+        font-size: 40px;   
+       }
 }

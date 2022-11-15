@@ -1,14 +1,35 @@
 import './index.scss';
+import {useState} from 'react';
 import Navbar from '../../components/Navbar';
+import arrow from '../../images/arrow_circle_down.png';
 
-const Cv = () => {
+const About = () => {
+    const [eduShown, setEduShown] = useState(true);
+    const [exhibitionsShown, setExhibitionsShown] = useState(false);
+    const [grantsShown, setGrantsShown] = useState(false);
+
+    const handleClick1 = e => {
+        setEduShown(current => !current);
+        setExhibitionsShown(current => !current);
+    };
+
+    const handleClick2 = e => {
+        setExhibitionsShown(current => !current);
+        setGrantsShown(current => !current);
+    };
+
+    const handleClick3 = e => {
+        setGrantsShown(current => !current);
+        setEduShown(current => !current);
+    };
+
     return (
-    <div className='container'>
+    <div>
         <Navbar />
 
         <div className='cv'>
 
-            <div className='cv-section education'>  
+            {eduShown && <div className='cv-section education'>  
                 <h4>Miriam Poletti</h4>
                     <div className='about'>
                         <h6>Miriam Poletti (she/they) lives and works in Berlin, Germany.</h6>
@@ -26,14 +47,16 @@ const Cv = () => {
                     </div>
 
                 <h5>Education</h5>
-                <p><b>2021</b> Advanced Master Course, The Posthuman & New Materialism, Class of Rosi Braidotti, Utrecht University, Netherland</p>
-                <p><b>2016</b> Master of Fine Arts (with honors), Brera Academy, Milan, Italy</p>
-                <p><b>2015</b> Erasmus Exchange Semester, Graphic and Photography Department, EA Murcia School of Art, Murcia, Spain</p>
-                <p><b>2013</b> Bachelor of Fine Arts (with honors), Brera Academy, Milan, Italy</p>
-            </div>
+                    <p><b>2021</b> Advanced Master Course, The Posthuman & New Materialism, Class of Rosi Braidotti, Utrecht University, Netherland</p>
+                    <p><b>2016</b> Master of Fine Arts (with honors), Brera Academy, Milan, Italy</p>
+                    <p><b>2015</b> Erasmus Exchange Semester, Graphic and Photography Department, EA Murcia School of Art, Murcia, Spain</p>
+                    <p><b>2013</b> Bachelor of Fine Arts (with honors), Brera Academy, Milan, Italy</p>
+
+                <img className='arrow-down' src={arrow} alt='arrow' onClick={handleClick1} />
+                </div>}
 
 
-            <div className='cv-section exhibitions'>
+            {exhibitionsShown && <div className='cv-section exhibitions'>
                 <h5>Selected Exhibitions</h5>
                     <p><b>2020</b> <i>Lichtblick</i>, Kunsthalle am Hamburger Platz, Berlin, Germany</p>
                     <p><b>2020</b> <i>What is Fear?</i>, Thessaloniki Queer Art Festival, Thessaloniki, Greece</p>
@@ -63,10 +86,12 @@ const Cv = () => {
                     <p><b>2018</b> SCREENING <i>Queertech.io = ART (URL, IRL)</i>, ACMI, Australian Centre for the Moving Image, Melbourne, Australia</p>
                     <p><b>2018</b> SCREENING <i>There Are No Girls On The Internet / Localhost Gallery</i>, Now Play This Festival, London, UK</p>
                     <p><b>2017</b> SCREENING <i>Queertech.io = ART (URL, IRL)</i>, BLINDSIDE's PLAY2, Federation Square Big Screen, Melbourne, Australia</p>
-            </div>
+
+                <img className='arrow-down' src={arrow} alt='arrow' onClick={handleClick2} />
+            </div>}
 
 
-            <div className='cv-section grants'>
+            {grantsShown && <div className='cv-section grants'>
                     <h5>Grants, awards & residencies</h5>
                         <p><b>2022</b> RESEARCH RESIDENCY De Structura, Tallinn, Estonia</p>
                         <p><b>2016</b> AWARD Nomination Ricas Award, Milano</p>
@@ -91,10 +116,16 @@ const Cv = () => {
                         <p><b>2021</b> SOFT EIS Presse, special limited edition cover for Issue 02, Berlin</p>
                         <p><b>2020</b> <i>Patatas Guerra s02</i>, nomadic exhibition series, Madrid, Berlin, Carrara <a href="https://www.patatasguerra.com/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
                         <p><b>2018</b> <i>Patatas Guerra</i>, nomadic exhibition series, Milan, London, Venice, Dublin <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                </div>
+
+                    <h5>Web development</h5>
+                        <p><b>2022</b> <i>miriampoletti.com</i> Personal portfolio website <a href="https://www.miriampoletti.com/" target="_blank" rel="noreferrer"> [LINK] </a></p>
+                        <p><b>2022</b> <i>daretocare-art.com</i> Dare to Care art collective website <a href="https://www.patatasguerra.com/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    
+                    <img className='arrow-down' src={arrow} alt='arrow' onClick={handleClick3} />
+                </div>}
 
         </div>
     </div>
 )}
 
-export default Cv;
+export default About;

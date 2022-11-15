@@ -5,6 +5,10 @@
     margin-right: 4em;
     padding-top: 6%;
     padding-bottom: 6%;
+
+    @media (max-width: 1025px) {
+        padding-top: 40%;   
+       }
 }
 
 .menu__item-img {
@@ -30,6 +34,11 @@
     animation-fill-mode: forwards;
     z-index: 7;
     position: relative;
+
+    @media (max-width: 1025px) {
+        -webkit-text-stroke: 1px black;
+        font-size: 23px;   
+       }
 }
 
 .menu__item-link:hover {
