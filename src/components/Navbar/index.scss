@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,500;8..144,600&display=swap');
 
 .links-top {
     display: flex;
@@ -26,7 +26,7 @@
     margin-left: 10px;
 
     @media (max-width: 1025px) {
-     font-weight: 300 !important;;
+     font-family: 'Roboto Flex', sans-serif;
      font-size: 60px;   
     }
 }
@@ -39,7 +39,7 @@
     margin-right: 10px;
 
     @media (max-width: 1025px) {
-        font-weight: 300 !important;;
+        font-family: 'Roboto Flex', sans-serif;
         font-size: 40px;   
        }
 }
@@ -52,7 +52,7 @@
     margin-left: 10px;
 
     @media (max-width: 1025px) {
-        font-weight: 300 !important;;
+        font-family: 'Roboto Flex', sans-serif;
         font-size: 40px;   
        }
 }
@@ -65,7 +65,7 @@
     margin-right: 10px;
 
     @media (max-width: 1025px) {
-        font-weight: 300 !important;;
+        font-family: 'Roboto Flex', sans-serif;
         font-size: 40px;   
        }
 }
