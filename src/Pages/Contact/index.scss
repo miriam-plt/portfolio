@@ -125,6 +125,10 @@
     color: #f4f0f0;
     font-size: 65px;
     margin-bottom: 0; 
+    @media (max-width: 1025px) {
+        -webkit-text-stroke: 1px black;
+        font-size: 41px;
+    }
 }
 
 .contact-h6 {

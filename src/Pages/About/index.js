@@ -12,20 +12,24 @@ const About = () => {
     const handleClick1 = e => {
         setEduShown(current => !current);
         setExhibitionsShown(current => !current);
+        window.scrollTo(0,0);
     };
 
     const handleClick2 = e => {
         setExhibitionsShown(current => !current);
         setGrantsShown(current => !current);
+        window.scrollTo(0,0);
     };
 
     const handleClick3 = e => {
         setGrantsShown(current => !current);
         setEduShown(current => !current);
+        window.scrollTo(0,0);
     };
 
     return (
     <div>
+     {window.scrollTo(0,0)}
         <Navbar />
 
         <div className='cv'>

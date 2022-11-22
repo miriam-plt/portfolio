@@ -37,7 +37,7 @@
 
     @media (max-width: 1025px) {
         -webkit-text-stroke: 1px black;
-        font-size: 23px;   
+        font-size: 21px;   
        }
 }
 
@@ -47,13 +47,19 @@
     color: #5e4c49;
     font-size: 35px;
     font-weight: 700;
-    
+    @media (max-width: 1025px) {
+        -webkit-text-stroke: 1px black;
+        font-size: 23px;    
+    }
    
 
     .menu__item-img {
         opacity: 1;
         transform: translate3d(calc(-100% - 6vw),-30%,0) rotate3d(0,0,1,4deg);
         transition: all 0.4s;
+        @media (max-width: 1025px) {
+            display: none;   
+        }
     }
 }
 
