@@ -48,7 +48,7 @@ const About = () => {
                     imprint on them, drinking and consuming them, wearing them, making them their own. 
                     The skin becomes a site of possibility in which the nature of the encounter is established through the performative process of touching.</h6>
                     <br />
-                    <h6>Miriam is an organizing member of <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer"> Dare to Care </a> and <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer"> Confronting Monuments</a>.</h6>
+                    <h6>Miriam is an organizing member of <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer"> Dare to Care </a>.</h6>
                     <br />
                     <h6>Email: <a href="mailto:polettimiriam@gmail.com" target="_blank" rel="noreferrer"> polettimiriam@gmail.com </a> </h6>
                     <h6 className='ig-link'>Instagram: <a href="https://www.instagram.com/miriamakaib/" target="_blank" rel="noreferrer"> @miriamakaib </a> </h6>
@@ -127,7 +127,7 @@ const About = () => {
                     <p><b>2018</b> <i>Patatas Guerra</i>, nomadic exhibition series, Milan, London, Venice, Dublin <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
 
                 <h5>Web development</h5>
-                    <p><b>2022</b> <i>miriampoletti.com</i> Personal portfolio website <a href="https://www.miriampoletti.com/" target="_blank" rel="noreferrer"> [LINK] </a></p>
+                    <p><b>2022</b> <i>miriampoletti.com</i> Personal portfolio website</p>
                     <p><b>2022</b> <i>daretocare-art.com</i> Dare to Care art collective website <a href="https://www.patatasguerra.com/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
                     
                 <img className='arrow' src={arrowTop} alt='arrow' onClick={handleClick3} />
