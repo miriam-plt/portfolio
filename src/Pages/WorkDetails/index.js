@@ -21,7 +21,7 @@ function WorkDetails() {
         {selectedWork.map(work => {
             return (
                     <div className='grid' key={work._id}>
-
+                    {window.scrollTo(0,0)}
                         <div className='div1'>
                             <img className='work__detail-img img1' src={work.img1} alt='main' />
                         </div>
