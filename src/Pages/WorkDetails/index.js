@@ -1,7 +1,6 @@
 import './index.scss';
 import Navbar from '../../components/Navbar';
 import { useParams } from 'react-router-dom';
-import { NavLink } from "react-router-dom";
 import WorksData from '../../assets/data/works-data.json';
 
 
@@ -32,7 +31,7 @@ function WorkDetails() {
                                 <p className='work__detail-basics'>{work.category}{work.measurement ? '  |  ' + work.measurement : ''} {work.material ? '  |  ' + work.material : ''}  |  {work.year}</p>
                                 <p className='work__detail-description'>{work.description}</p>
                                 <p className='work__detail-description'>{work.details}</p>
-                                {work.link && <NavLink className='work__detail-link' to={work.link}><p>LINK</p></NavLink>}
+                                {work.link && <a className='work__detail-link' href={work.link} target="_blank" rel="noreferrer">LINK</a>}
                                 {work.credits && <div><p className='work__detail-credits'>{work.credits[0]}</p><p className='work__detail-credits'>{work.credits[1]}</p></div>}
                             </div>
                         </div>
