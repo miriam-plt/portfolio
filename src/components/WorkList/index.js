@@ -10,7 +10,7 @@ function WorkList() {
     return (
         <div>
         <Navbar />
-
+        
         <div className='menu'>
             <div className='menu__item'>
                 {WorksData.map(work => {

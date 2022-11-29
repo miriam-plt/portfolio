@@ -1,17 +1,5 @@
 [
       {
-         "_id": "vivid-impressions-care",
-         "title": "Vivid Impressions Room",
-         "year": "2022",
-         "category": "installation",
-         "description": "blablabla",
-         "image": "../../images/img04.png",
-         "img1": "../../images/vivid/vivid01.jpeg",
-         "img2": "../../images/vivid/vivid02.jpeg",
-         "img3": "../../images/vivid/vivid03.jpeg",
-         "img4": "../../images/vivid/vivid04.jpeg"
-      },
-      {
          "_id": "cultivating-touch",
          "title": "Perhaps Cultivating Touch Can Still Save Us",
          "year": "2022",
@@ -69,7 +57,7 @@
         "category": "installation",
         "material": "sublimation print on microfiber, polyester and polystyrene filling",
         "measurement": "variable dimensions",
-        "description": "blablabla",
+        "description": "An impression can be an effect on the subject's feelings (to make an impression), it can be a belief (to be under an impression), it can be an imitation (to create an impression), it can be a mark on the surface (to leave an impression). The skin act as an archive of histories of contact, recording past impressions, past encounters with others. It is through these experiences that we come to have a sense of our skin as a bodily surface, as something that keeps us separate from others, but also as something that mediates our relationship with the outside.",
         "image": "../../images/img04.png",
         "img1": "../../images/vivid/vivid01.jpeg",
         "img2": "../../images/vivid/vivid02.jpeg",
@@ -100,7 +88,7 @@
         "category": "poem and video",
         "measurement": "7'11''",
         "link": "https://vimeo.com/227574710",
-        "description": "blabla",
+        "description": "In her video installation “Lonely Girl Phenomenology” (2017) Poletti shares the social criticism expressed in Chris Kraus' feminist novel “I Love Dick” (1997). In Kraus' partly autobiographical book the married protagonist devotes herself to an obsession with another man. She verbalises her desires in love letters to him. But only in the beginning her words actually address Dick, later she writes them rather in order to express her fantasies, to reify and live them out. In the end the letters become obsolete to even be sent. The video installation mixes quotes from Kraus' and Poletti's own intimate thoughts. Event if occasionally it might seem otherwise, the artists words do not refer to a specific person. Desires belong to ourselves, they begin with our lonely self. Consciousness about the own body is essential. Poletti discovers her body in a new way. The video shows her placing glass pearls between her legs, playing with water and entwining soft objects with her arms. The artist asks herself what the true meaning of intimacy and love is. She examines if there is a way to freely express these aspects of life without getting pressured from outside to fit into certain social stereotypes.",
         "image": "../../images/img07.png",
         "img1": "../../images/lonely/lonely01.jpeg",
         "img2": "../../images/lonely/lonely02.jpeg",
