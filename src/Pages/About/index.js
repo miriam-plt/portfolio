@@ -123,8 +123,7 @@ const About = () => {
 
                 <h5>Collaborative projects</h5>
                     <p><b>2021</b> SOFT EIS Presse, special limited edition cover for Issue 02, Berlin</p>
-                    <p><b>2020</b> <i>Patatas Guerra s02</i>, nomadic exhibition series, Madrid, Berlin, Carrara <a href="https://www.patatasguerra.com/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                    <p><b>2018</b> <i>Patatas Guerra</i>, nomadic exhibition series, Milan, London, Venice, Dublin <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2018</b> <i>Patatas Guerra</i>, nomadic exhibition series <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
 
                 <h5>Web development</h5>
                     <p><b>2022</b> <i>miriampoletti.com</i> Personal portfolio website</p>

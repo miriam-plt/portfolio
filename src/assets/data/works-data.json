@@ -8,7 +8,10 @@
          "measurement": "18 x 144 cm",
          "description": "A soft sculpture inspired by Luce Irigaray.",
          "image": "../../images/img08.png",
-         "img1": "../../images/touch/touch01.jpeg"
+         "img1": "../../images/touch/touch01.jpeg",
+         "img2": "../../images/touch/touch02.jpeg",
+         "img3": "../../images/touch/touch03.jpeg",
+         "img4": "../../images/touch/touch04.jpeg"
       },
       {
         "_id": "melting-times",
@@ -89,6 +92,7 @@
         "img1": "../../images/lonely/lonely01.jpeg",
         "img2": "../../images/lonely/lonely02.jpeg",
         "img3": "../../images/lonely/lonely03.jpeg",
-        "img4": "../../images/lonely/lonely04.jpeg"
+        "img4": "../../images/lonely/lonely04.jpeg",
+        "img5": "../../images/lonely/lonely05.jpeg"
      }
 ]
