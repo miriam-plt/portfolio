@@ -42,7 +42,7 @@ const About = () => {
                     <h6>Her artistic practice is interdisciplinary and includes photography, sculpture, video and creative writing. 
                     Their work seeks to question notions of tenderness, fragility and sociality on both a communal and individual level, 
                     serving as an embodied methodology to create new models of social interaction. </h6>
-                    <h6>The notion of trauma plays a generative and creative role in her production. 
+                    <h6> 
                     The body, investigated in its minimal alterations, is soft, weak, porous and easily shaped or even bruised by the proximity of the others. 
                     The audience is invited to interact physically and viscerally with the works, squeezing or gently touching them, leaving their temporary 
                     imprint on them, drinking and consuming them, wearing them, making them their own. 
