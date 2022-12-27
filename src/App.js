@@ -5,6 +5,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import WorkList from './components/WorkList';
 import WorkDetails from './Pages/WorkDetails';
+import Error from './Pages/Error';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/works" element={<WorkList />} />
         <Route path="/works/:id" element={<WorkDetails />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </div>
   );
