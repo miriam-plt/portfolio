@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Asset&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .container {
     display: flex;
@@ -87,7 +87,7 @@
         font-size: 16px;
         font-weight: 400;
         width: 100%;
-        border: 0;
+        border: none;
         background: transparent;
         border-bottom: 1px solid black;
         height: 50px;
@@ -95,11 +95,13 @@
         min-height: 50px;
         box-sizing: border-box;
         resize: none;
+        overflow: hidden;
         @media (max-width: 1025px) {
             height: 30px;
             min-height: 30px;
             padding-top: 5px;
             padding-bottom: 20px;
+            font-family: 'Roboto', sans-serif;
         }
     }
 
