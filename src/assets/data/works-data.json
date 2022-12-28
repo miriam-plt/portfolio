@@ -28,7 +28,8 @@
         "img3": "../../images/melting/melting03.jpeg",
         "img4": "../../images/melting/melting04.jpeg",
         "img5": "../../images/melting/melting05.jpeg",
-        "img6": "../../images/melting/melting06.jpeg"
+        "img6": "../../images/melting/melting06.jpeg",
+        "img7": "../../images/melting/melting07.jpeg"
      },
      {
         "_id": "fear-thirst",
@@ -93,6 +94,8 @@
         "img2": "../../images/lonely/lonely02.jpeg",
         "img3": "../../images/lonely/lonely03.jpeg",
         "img4": "../../images/lonely/lonely04.jpeg",
-        "img5": "../../images/lonely/lonely05.jpeg"
+        "img5": "../../images/lonely/lonely05.jpeg",
+        "img6": "../../images/lonely/lonely06.jpeg",
+        "img7": "../../images/lonely/lonely07.jpeg"
      }
 ]
