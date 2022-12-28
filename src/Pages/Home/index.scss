@@ -1,8 +1,11 @@
 .homepage-background {
     height:100vh;
     width:100vw;
-    background-image: linear-gradient(rgba(142, 142, 142, 0.5), rgba(148, 148, 148, 0.2)), url("../../images/background.jpg");
+    background-image: linear-gradient(rgba(231, 231, 231, 0.1), rgba(227, 225, 225, 0.1)), url("../../images/background3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    @media (max-width: 1025px) {
+        background-image: linear-gradient(rgba(231, 231, 231, 0.1), rgba(227, 225, 225, 0.1)), url("../../images/background.jpg");
+    }
 }
