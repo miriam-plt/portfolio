@@ -2,8 +2,8 @@ import './index.scss';
 import Navbar from '../../components/Navbar';
 import { useParams } from 'react-router-dom';
 import WorksData from '../../assets/data/works-data.json';
-
-
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
 
 function WorkDetails() {
     const { id } = useParams();
@@ -12,7 +12,6 @@ function WorkDetails() {
         work._id === id 
     )
 
-    
    return <div>
         <Navbar />
         
@@ -31,7 +30,15 @@ function WorkDetails() {
                                 <p className='work__detail-basics'>{work.category}{work.measurement ? '  |  ' + work.measurement : ''} {work.material ? '  |  ' + work.material : ''}  |  {work.year}</p>
                                 <p className='work__detail-description'>{work.description}</p>
                                 <p className='work__detail-description'>{work.details}</p>
-                                {work.link && <a className='work__detail-link' href={work.link} target="_blank" rel="noreferrer">LINK</a>}
+                                {work.audio && 
+                                    <AudioPlayer
+                                    layout='horizontal-reverse'
+                                    src={work.audio}
+                                    showJumpControls={false}
+                                    customAdditionalControls={[]}
+                                    customVolumeControls={[]}
+                                />}
+                                {/*{work.link && <a className='work__detail-link' href={work.link} target="_blank" rel="noreferrer">LINK</a>}*/}
                                 {work.credits && <div><p className='work__detail-credits'>{work.credits[0]}</p><p className='work__detail-credits'>{work.credits[1]}</p></div>}
                             </div>
                         </div>
