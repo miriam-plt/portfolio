@@ -48,7 +48,7 @@ const About = () => {
                     imprint on them, drinking and consuming them, wearing them, making them their own. 
                     The skin becomes a site of possibility in which the nature of the encounter is established through the performative process of touching.</h6>
                     <br />
-                    <h6>Miriam is an organizing member of <a href="https://daretocare.netlify.app/" target="_blank" rel="noreferrer"> DARE TO CARE</a>.</h6>
+                    <h6>Miriam is an organizing member of <a href="https://dare-to-care.art/" target="_blank" rel="noreferrer"> DARE TO CARE</a>.</h6>
                     <br />
                     
                 </div>
