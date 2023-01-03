@@ -38,7 +38,6 @@ function WorkDetails() {
                                     customAdditionalControls={[]}
                                     customVolumeControls={[]}
                                 />}
-                                {/*{work.link && <a className='work__detail-link' href={work.link} target="_blank" rel="noreferrer">LINK</a>}*/}
                                 {work.credits && <div><p className='work__detail-credits'>{work.credits[0]}</p><p className='work__detail-credits'>{work.credits[1]}</p></div>}
                             </div>
                         </div>

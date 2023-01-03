@@ -6,12 +6,12 @@
          "category": "sculpture",
          "material": "sublimation print on microfiber, polyester filling",
          "measurement": "18 x 144 cm",
-         "description": "A soft sculpture inspired by Luce Irigaray.",
+         "description": "A soft sculpture inspired by Luce Irigaray who affirms that “To touch one another in intersubjectivity, it is necessary that two subjects agree to relationship and that the possibility to consent exists.” Unlike the gaze, touch should not arrest or grasp the subject thus preventing the annihilation of the other's subjective autonomy.",
          "image": "../../images/img08.png",
          "img1": "../../images/touch/touch01.jpeg",
          "img2": "../../images/touch/touch02.jpeg",
          "img3": "../../images/touch/touch03.jpeg",
-         "img4": "../../images/touch/touch04.jpeg"
+         "img5": "../../images/touch/touch05.jpeg"
       },
       {
         "_id": "melting-times",
@@ -20,7 +20,7 @@
         "category": "fictional story and video",
         "measurement": "9'22''",
         "link": "https://vimeo.com/419281585",
-        "description": "The video presents the image of a moving body filtered through a liquid. A voice, likewise filtered, narrates a story that is simultaneously autobiographical and fictional. It is a first-person narrative of the experience of a liquid, amorphous and ever-changing body.",
+        "description": "The video presents the image of a moving body filtered through a liquid. A voice, likewise filtered, narrates a story that is simultaneously autobiographical and fictional. It is a first-person narrative of the experience of a fluid, amorphous and ever-changing body.",
         "details": "Screening on the occasion of the film festival “ΤΙ ΕΙΝΑΙ ΦΟΒΟΣ; WHAT IS FEAR?”, Hošek Contemporary, Berlin",
         "image": "../../images/img01.png",
         "img1": "../../images/melting/melting01.png",
@@ -62,7 +62,10 @@
         "img1": "../../images/vivid/vivid01.jpeg",
         "img2": "../../images/vivid/vivid02.jpeg",
         "img3": "../../images/vivid/vivid03.jpeg",
-        "img4": "../../images/vivid/vivid04.jpeg"
+        "img4": "../../images/vivid/vivid04.jpeg",
+        "img5": "../../images/vivid/vivid05.jpeg",
+        "img6": "../../images/vivid/vivid06.jpeg",
+        "img7": "../../images/vivid/vivid07.jpeg"
      },
      {
         "_id": "proximity-distance",

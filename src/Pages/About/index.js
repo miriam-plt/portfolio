@@ -127,7 +127,7 @@ const About = () => {
 
                 <h5>Web development</h5>
                     <p><b>2022</b> <i>miriampoletti.com</i> Personal portfolio website</p>
-                    <p><b>2022</b> <i>dare-to-care.art</i> Dare to Care art collective website <a href="https://daretocare.netlify.app/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2022</b> <i>daretocare.netlify.app</i> Dare to Care art collective website <a href="https://daretocare.netlify.app/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
                     
                 <img className='arrow' src={arrowTop} alt='arrow' onClick={handleClick3} />
             </div>}
