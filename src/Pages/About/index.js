@@ -50,9 +50,7 @@ const About = () => {
                     <br />
                     <h6>Miriam is an organizing member of <a href="https://daretocare.netlify.app/" target="_blank" rel="noreferrer"> DARE TO CARE</a>.</h6>
                     <br />
-                    <h6>Email: <a href="mailto:polettimiriam@gmail.com" target="_blank" rel="noreferrer"> polettimiriam@gmail.com </a> </h6>
-                    <h6 className='ig-link'>Instagram: <a href="https://www.instagram.com/miriamakaib/" target="_blank" rel="noreferrer"> @miriamakaib </a> </h6>
-                    <br />
+                    
                 </div>
 
                 <h5>Education</h5>
@@ -125,10 +123,6 @@ const About = () => {
                     <p><b>2021</b> SOFT EIS Presse, special limited edition cover for Issue 02, Berlin</p>
                     <p><b>2018</b> <i>Patatas Guerra</i>, nomadic exhibition series <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
 
-                <h5>Web development</h5>
-                    <p><b>2022</b> <i>miriampoletti.com</i> Personal portfolio website</p>
-                    <p><b>2022</b> <i>daretocare.netlify.app</i> Dare to Care art collective website <a href="https://daretocare.netlify.app/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                    
                 <img className='arrow' src={arrowTop} alt='arrow' onClick={handleClick3} />
             </div>}
 
