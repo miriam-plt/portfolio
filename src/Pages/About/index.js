@@ -39,7 +39,7 @@ const About = () => {
                 <div className='about'>
                     <h6>Miriam Poletti (she/they) lives and works in Berlin, Germany.</h6>
                     <br />
-                    <h6>Her artistic practice is interdisciplinary and includes photography, sculpture, video and creative writing. 
+                    <h6>Her art practice is interdisciplinary and includes photography, sculpture, video and creative writing. 
                     Their work seeks to question notions of tenderness, fragility and sociality on both a communal and individual level, 
                     serving as an embodied methodology to create new models of social interaction. </h6>
                     <h6> 
