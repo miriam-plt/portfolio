@@ -64,26 +64,25 @@ const About = () => {
 
 
             {exhibitionsShown && <div className='cv-section exhibitions'>
-                <h5 className='cv-category-title'>Selected Exhibitions</h5>
+                <h5 className='cv-category-title'>Selected Exhibitions and Screenings</h5>
                     <p><b>2022</b> <i>De Structura AR Art Evening</i>, Ukraina väljak, Lembitu park, Tallinn, Estonia</p>
                     <p><b>2020</b> <i>Lichtblick</i>, Kunsthalle am Hamburger Platz, Berlin, Germany</p>
                     <p><b>2020</b> <i>What is Fear?</i>, Hošek Contemporary, Berlin, Germany</p>
-                    <p><b>2020</b> <i>What is Fear?</i>, Thessaloniki Queer Art Festival, Thessaloniki, Greece</p>
+                    <p><b>2020</b> <i>What is Fear?</i>, virtual exhibition and short film festival, Thessaloniki Queer Art Festival, Thessaloniki, Greece</p>
                     <p><b>2019</b> <i>Un/real Desires</i>, SomoS Art House, Berlin, Germany</p>
                     <p><b>2018</b> <i>Gut Feelings</i>, Centrala, Birmingham, UK</p>
                     <p><b>2018</b> <i>Collection Croisière, Nouvelle Collection Paris</i>, La Panacée, Montpellier, France</p>
                     <p><b>2018</b> <i>It's My Pleasure</i>, Artburst Berlin, OKK Organ kritischer Kunst, Berlin, Germany</p>
-                    <p><b>2018</b> <i>Love & Politics Public Programme</i>, Chaosmos_/ 79Au, Athens, Greece</p>
-                    <p><b>2018</b> <i>Endangered Bodies: Representing and Policing the Body in Western Culture</i>, School of Art and Humanities, FLUL, Lisbon, Portugal</p>
-                    <p><b>2018</b> <i>Touch</i>, online exhibition, Thinking Flesh, Feminist Art Platform</p>
+                    <p><b>2018</b> <i>Love & Politics</i>, Chaosmos_/ 79Au, Athens, Greece</p>
+                    <p><b>2018</b> <i>Endangered Bodies</i>, School of Art and Humanities, FLUL, Lisbon, Portugal</p>
                     <p><b>2018</b> <i>Queertech.io = ART (URL, IRL)</i>, ACMI, Australian Centre for the Moving Image, Melbourne, Australia</p>
-                    <p><b>2017</b> <i>Techne Space</i>, online exhibition, The Wrong, New Digital Art Biennale</p>
-                    <p><b>2017</b> <i>There Are No Girls on The Internet</i>, online exhition, Localhost Gallery, Minecraft 1.12.2</p>
+                    <p><b>2017</b> <i>Techne Space</i>, virtual exhibition, The Wrong, New Digital Art Biennale</p>
+                    <p><b>2017</b> <i>There Are No Girls on The Internet</i>, virtual exhition, Localhost Gallery, Minecraft 1.12.2</p>
                     <p><b>2017</b> <i>Mutual Feelings 2: VR Cybertwee HQ</i>, The Alibi, London, UK</p>
                     <p><b>2017</b> <i>your / body ////// as / a / torchlight /</i>, E/laboratory, Paris, France</p>
                     <p><b>2017</b> <i>Queertech.io = ART (URL, IRL)</i>, BLINDSIDE's PLAY2, Federation Square Big Screen, Melbourne, Australia</p>
                     <p><b>2017</b> <i>High Sugar // Heavy Metals</i>, Palazzo Pascoli, Pavia, Italy</p>
-                    <p><b>2016</b> <i>Cybertwee Virtual Headquarters</i>, online exhibition, Cybertwee HQ App</p>
+                    <p><b>2016</b> <i>Cybertwee Virtual Headquarters</i>, virtual exhibition, Cybertwee HQ App</p>
                     <p><b>2016</b> <i>Sguardi sulla pietra</i>, Tones on the Stones, Historic Quarry of Croppo of Trontano, VCO, Italy</p>
                     <p><b>2016</b> <i>Accademia Aperta</i>, Brera Academy of Fine Arts, Milan, Italy</p>
                     <p><b>2016</b> <i>Era pacifica pare</i>, Ricas Award, Careof, Milan, Italy</p>
