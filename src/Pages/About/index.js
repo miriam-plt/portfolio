@@ -27,6 +27,7 @@ const About = () => {
         window.scrollTo(0,0);
     };
 
+
     return (
     <div>
      {window.scrollTo(0,0)}
@@ -48,6 +49,7 @@ const About = () => {
                     imprint on them, drinking and consuming them, wearing them, making them their own. 
                     The skin becomes a site of possibility in which the nature of the encounter is established through the performative process of touching.</h6>
                     <br />
+                    <h6>Miriam is an organizing member of <a href="https://dare-to-care.art/" target="_blank" rel="noreferrer"> DARE TO CARE</a>.</h6>
                     <br />
                     
                 </div>
@@ -56,10 +58,6 @@ const About = () => {
                     <p><b>2016</b> Master of Fine Arts (with honors), Brera Academy, Milan, Italy</p>
                     <p><b>2015</b> Erasmus Exchange Semester, Graphic and Photography Department, EA Murcia School of Art, Murcia, Spain</p>
                     <p><b>2013</b> Bachelor of Fine Arts (with honors), Brera Academy, Milan, Italy</p>
-
-                <h5 className='cv-category-title'>Summer Schools</h5>
-                    <p><b>2022</b> De Structura Forum, Tallinn, Estonia</p>
-                    <p><b>2021</b> Advanced Master Course, The Posthuman & New Materialism, Class of Rosi Braidotti, Utrecht University, Netherland</p>
 
                 <img className='arrow' src={arrowDown} alt='arrow' onClick={handleClick1} />
             </div>}
@@ -97,14 +95,10 @@ const About = () => {
 
             {grantsShown && <div className='cv-section grants'>
                 <h5 className='cv-category-title'>Grants & awards</h5>
-                    <p><b>2016</b> AWARD Nomination Ricas Award, Milan, Italy</p>
-                    <p><b>2015</b> SCHOLARSHIP Lombardi Croci Foundation study scholarship for Fine Arts</p>
-                    <p><b>2013</b> AWARD Nomination Bruno Starita Award, Naples, Italy</p>
-    
-                <h5 className='cv-category-title'>Publications as author</h5>
-                    <p><b>2021</b><i>“To Inhabit or To Fill Oneself”</i>, SOFT EIS Issue 02: Identity, Berlin, Germany <a href="https://softeismagazine.com/shop/issue02/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                    <p><b>2018</b><i>“Lonely Girl Phenomenology”</i>, Love & Politics, Freigeist Verlag, Berlin, Germany <a href="http://freigeist-verlag.net/buecher/love-politics/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                    
+                    <p><b>2016</b> Nomination Ricas Award, Milan, Italy</p>
+                    <p><b>2015</b> Lombardi Croci Foundation study scholarship for Fine Arts</p>
+                    <p><b>2013</b> Nomination Bruno Starita Award, Naples, Italy</p>
+     
                 <h5 className='cv-category-title'>Press and publications</h5>
                     <p><b>2022</b> Interview with Damaris Athene, Private View, May 2022 <a href="https://www.instagram.com/p/Cc5CShIoIOX/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
                     <p><b>2019</b> <i>“When Art, Fashion and Performance Collide”</i>, Metal Magazine, January 2019 <a href="https://metalmagazine.eu/en/post/interview/sarah-nefissa-belhadjali-when-art-fashion-and-performance-collide" target="_blank" rel="noreferrer"> [LINK] </a> </p>
@@ -115,9 +109,17 @@ const About = () => {
                     <p><b>2014</b> <i>“Girls Get Busy, Feminist Art and Writing”</i>, Issue n. 23, November 2014 <a href="https://issuu.com/ggbzine/docs/ggb23" target="_blank" rel="noreferrer"> [LINK] </a> </p>
                     <p><b>2014</b> <i>“Prima Biennale di incisione, Premio Bruno Starita”</i>, January 2014, exhibition catalogue</p>
 
+                <h5 className='cv-category-title'>Publications as author</h5>
+                    <p><b>2021</b><i>“To Inhabit or To Fill Oneself”</i>, SOFT EIS Issue 02: Identity, Berlin, Germany <a href="https://softeismagazine.com/shop/issue02/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2018</b><i>“Lonely Girl Phenomenology”</i>, Love & Politics, Freigeist Verlag, Berlin, Germany <a href="http://freigeist-verlag.net/buecher/love-politics/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+            
                 <h5 className='cv-category-title'>Collaborative projects</h5>
                     <p><b>2021</b> SOFT EIS Presse, special limited edition cover for Issue 02, Berlin, Germany</p>
                     <p><b>2018</b> <i>Patatas Guerra</i>, nomadic exhibition series <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+
+                <h5 className='cv-category-title'>Summer Schools</h5>
+                    <p><b>2022</b> De Structura Forum, supported by Erasmus+, Tallinn, Estonia</p>
+                    <p><b>2021</b> Advanced Master Course, The Posthuman & New Materialism, Class of Rosi Braidotti, Utrecht University, Netherland</p>
 
                 <img className='arrow' src={arrowTop} alt='arrow' onClick={handleClick3} />
             </div>}
