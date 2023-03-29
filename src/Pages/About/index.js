@@ -55,9 +55,9 @@ const About = () => {
                 </div>
 
                 <h5 className='cv-category-title'>Education</h5>
-                    <p><b>2016</b> Master of Fine Arts (with honors), Brera Academy, Milan, Italy</p>
-                    <p><b>2015</b> Erasmus Exchange Semester, Graphic and Photography Department, EA Murcia School of Art, Murcia, Spain</p>
-                    <p><b>2013</b> Bachelor of Fine Arts (with honors), Brera Academy, Milan, Italy</p>
+                    <p><b>2016</b> Brera Academy of Fine Arts, Milan, Italy, Master of Fine Arts</p>
+                    <p><b>2015</b> EA Murcia School of Art, Murcia, Spain, Graphic Art and Photography Department</p>
+                    <p><b>2013</b> Brera Academy of Fine Arts, Milan, Italy, Bachelor of Fine Arts</p>
 
                 <img className='arrow' src={arrowDown} alt='arrow' onClick={handleClick1} />
             </div>}
