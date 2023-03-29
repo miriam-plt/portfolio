@@ -100,7 +100,6 @@ const About = () => {
                     <p><b>2013</b> Nomination Bruno Starita Award, Naples, Italy</p>
      
                 <h5 className='cv-category-title'>Press and publications</h5>
-                    <p><b>2022</b> Interview with Damaris Athene, Private View, May 2022 <a href="https://www.instagram.com/p/Cc5CShIoIOX/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
                     <p><b>2019</b> <i>“When Art, Fashion and Performance Collide”</i>, Metal Magazine, January 2019 <a href="https://metalmagazine.eu/en/post/interview/sarah-nefissa-belhadjali-when-art-fashion-and-performance-collide" target="_blank" rel="noreferrer"> [LINK] </a> </p>
                     <p><b>2018</b> <i>“Patatas Guerra”</i>, Earth Sciences, April 2018 <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
                     <p><b>2018</b> <i>“It's My Pleasure”</i>, Artburst Berlin, April 2018, exhibition catalogue</p>
