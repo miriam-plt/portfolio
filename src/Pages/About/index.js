@@ -96,8 +96,8 @@ const About = () => {
 
             {grantsShown && <div className='cv-section grants'>
                 <h5 className='cv-category-title'>Grants & Residencies</h5>
-                    <p><b>2023</b> <strong>upcoming</strong> Artist Residency, funded by the European Union and implemented by the Gothe-Institut, Myymälä2, Helsinki, Finland</p>
-                    <p><b>2022</b> Research Residency, DeStructura, multidimensional pan-European initiative, co-funded by the European Union, Tallin and Narva, Estonia</p>
+                    <p><b>2023</b> <strong>upcoming</strong> Artist Residency, funded by the European Union and implemented by the Goethe-Institut, Myymälä2, Helsinki, Finland</p>
+                    <p><b>2022</b> Research Residency, DeStructura, multidimensional pan-European initiative, co-funded by the European Union, Tallinn and Narva, Estonia</p>
                     <p><b>2016</b> Nomination Ricas Award, Milan, Italy</p>
                     <p><b>2015</b> Lombardi Croci Foundation study scholarship for Fine Arts</p>
                     <p><b>2013</b> Nomination Bruno Starita Award, Naples, Italy</p>
