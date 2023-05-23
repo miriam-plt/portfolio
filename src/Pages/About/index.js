@@ -55,7 +55,7 @@ const About = () => {
                 </div>
 
                 <h5 className='cv-category-title'>Education</h5>
-                    <p><b>2021</b> Advanced Master Course, The Posthuman & New Materialism, Class of Rosi Braidotti, Utrecht University, Netherland</p>
+                    <p><b>2021</b> Utrecht University, Netherland, Advanced Master Course, The Posthuman & New Materialism, Class of Rosi Braidotti</p>
                     <p><b>2016</b> Brera Academy of Fine Arts, Milan, Italy, Master of Fine Arts</p>
                     <p><b>2015</b> EA Murcia School of Art, Murcia, Spain, Graphic Art and Photography Department</p>
                     <p><b>2013</b> Brera Academy of Fine Arts, Milan, Italy, Bachelor of Fine Arts</p>
