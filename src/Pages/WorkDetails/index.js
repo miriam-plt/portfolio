@@ -1,6 +1,7 @@
 import './index.scss';
 import Navbar from '../../components/Navbar';
 import { useParams } from 'react-router-dom';
+import { useEffect } from 'react';
 import WorksData from '../../assets/data/works-data.json';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
@@ -11,6 +12,18 @@ function WorkDetails() {
     const selectedWork = WorksData.filter(work => 
         work._id === id 
     )
+
+    useEffect(() => {
+        const handleContextMenu = (e) => {
+          e.preventDefault()
+        }
+    
+        document.addEventListener("contextmenu", handleContextMenu)
+    
+        return () => {
+          document.removeEventListener("contextmenu", handleContextMenu)
+        }
+      }, [])
 
    return <div>
         <Navbar />

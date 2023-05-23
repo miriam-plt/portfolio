@@ -55,6 +55,7 @@ const About = () => {
                 </div>
 
                 <h5 className='cv-category-title'>Education</h5>
+                    <p><b>2021</b> Advanced Master Course, The Posthuman & New Materialism, Class of Rosi Braidotti, Utrecht University, Netherland</p>
                     <p><b>2016</b> Brera Academy of Fine Arts, Milan, Italy, Master of Fine Arts</p>
                     <p><b>2015</b> EA Murcia School of Art, Murcia, Spain, Graphic Art and Photography Department</p>
                     <p><b>2013</b> Brera Academy of Fine Arts, Milan, Italy, Bachelor of Fine Arts</p>
@@ -65,13 +66,14 @@ const About = () => {
 
             {exhibitionsShown && <div className='cv-section exhibitions'>
                 <h5 className='cv-category-title'>Selected Exhibitions and Screenings</h5>
+                    <p><b>2023</b> <strong>upcoming</strong> <i>On the Texture of Feelings</i>, curated by Dare to Care collective, Myymälä2, Helsinki, Finland</p>
                     <p><b>2022</b> <i>De Structura AR Art Evening</i>, Ukraina väljak, Lembitu park, Tallinn, Estonia</p>
                     <p><b>2020</b> <i>Lichtblick</i>, Kunsthalle am Hamburger Platz, Berlin, Germany</p>
                     <p><b>2020</b> <i>What is Fear?</i>, Hošek Contemporary, Berlin, Germany</p>
                     <p><b>2020</b> <i>What is Fear?</i>, virtual exhibition and short film festival, Thessaloniki Queer Art Festival, Thessaloniki, Greece</p>
                     <p><b>2019</b> <i>Un/real Desires</i>, SomoS Art House, Berlin, Germany</p>
                     <p><b>2018</b> <i>Gut Feelings</i>, Centrala, Birmingham, UK</p>
-                    <p><b>2018</b> <i>Collection Croisière, Nouvelle Collection Paris</i>, La Panacée, Montpellier, France</p>
+                    <p><b>2018</b> <i>Collection Croisière, Nouvelle Collection Paris</i>, MO.CO. La Panacée, Montpellier, France</p>
                     <p><b>2018</b> <i>It's My Pleasure</i>, Artburst Berlin, OKK Organ kritischer Kunst, Berlin, Germany</p>
                     <p><b>2018</b> <i>Love & Politics</i>, Chaosmos_/ 79Au, Athens, Greece</p>
                     <p><b>2018</b> <i>Endangered Bodies</i>, School of Art and Humanities, FLUL, Lisbon, Portugal</p>
@@ -93,31 +95,29 @@ const About = () => {
 
 
             {grantsShown && <div className='cv-section grants'>
-                <h5 className='cv-category-title'>Grants & awards</h5>
+                <h5 className='cv-category-title'>Grants & Residencies</h5>
+                    <p><b>2023</b> <strong>upcoming</strong> Artist Residency, funded by the European Union and implemented by the Gothe-Institut, Myymälä2, Helsinki, Finland</p>
+                    <p><b>2022</b> Research Residency, DeStructura, multidimensional pan-European initiative, co-funded by the European Union, Tallin and Narva, Estonia</p>
                     <p><b>2016</b> Nomination Ricas Award, Milan, Italy</p>
                     <p><b>2015</b> Lombardi Croci Foundation study scholarship for Fine Arts</p>
                     <p><b>2013</b> Nomination Bruno Starita Award, Naples, Italy</p>
      
-                <h5 className='cv-category-title'>Press and publications</h5>
-                    <p><b>2019</b> <i>“When Art, Fashion and Performance Collide”</i>, Metal Magazine, January 2019 <a href="https://metalmagazine.eu/en/post/interview/sarah-nefissa-belhadjali-when-art-fashion-and-performance-collide" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                    <p><b>2018</b> <i>“Patatas Guerra”</i>, Earth Sciences, April 2018 <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                    <p><b>2018</b> <i>“It's My Pleasure”</i>, Artburst Berlin, April 2018, exhibition catalogue</p>
-                    <p><b>2018</b> <i>“e-stranged love”</i>, Jackie Liu (ed.), February 2018 <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                    <p><b>2015</b> <i>“Salon 2015, Giovani artisti dell'Accademia di Brera Milano”</i>, Brera Academy, April 2015, exhibition catalogue</p>
-                    <p><b>2014</b> <i>“Girls Get Busy, Feminist Art and Writing”</i>, Issue n. 23, November 2014 <a href="https://issuu.com/ggbzine/docs/ggb23" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                    <p><b>2014</b> <i>“Prima Biennale di incisione, Premio Bruno Starita”</i>, January 2014, exhibition catalogue</p>
+                <h5 className='cv-category-title'>Press</h5>
+                    <p><b>2019</b> <i>‘When Art, Fashion and Performance Collide‘</i>, Metal Magazine, January 2019 <a href="https://metalmagazine.eu/en/post/interview/sarah-nefissa-belhadjali-when-art-fashion-and-performance-collide" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2018</b> <i>‘Patatas Guerra‘</i>, Earth Sciences, April 2018 <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2018</b> <i>‘It's My Pleasure‘</i>, Artburst Berlin, April 2018, exhibition catalogue <a href="https://artburstberlin.de/onewebmedia/Ausstellungen%20und%20Events/It's%20My%20Pleasure%202018/Dokumentation_Its%20My%20Pleasure_Website.pdf" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2018</b> <i>‘e-stranged love‘</i>, Jackie Liu (ed.), February 2018 <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2014</b> <i>‘Girls Get Busy, Feminist Art and Writing‘</i>, Issue n. 23, November 2014 <a href="https://issuu.com/ggbzine/docs/ggb23" target="_blank" rel="noreferrer"> [LINK] </a> </p>
 
                 <h5 className='cv-category-title'>Publications as author</h5>
-                    <p><b>2021</b><i>“To Inhabit or To Fill Oneself”</i>, SOFT EIS Issue 02: Identity, Berlin, Germany <a href="https://softeismagazine.com/shop/issue02/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                    <p><b>2018</b><i>“Lonely Girl Phenomenology”</i>, Love & Politics, Freigeist Verlag, Berlin, Germany <a href="http://freigeist-verlag.net/buecher/love-politics/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2023</b> <strong>upcoming</strong> Reclaim Your City, SHIFT BOOKS </p>
+                    <p><b>2021</b><i>‘To Inhabit or To Fill Oneself‘</i>, SOFT EIS Issue 02: Identity, Berlin, Germany <a href="https://softeismagazine.com/shop/issue02/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2018</b><i>‘Lonely Girl Phenomenology‘</i>, Love & Politics, Freigeist Verlag, Berlin, Germany <a href="http://freigeist-verlag.net/buecher/love-politics/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
             
                 <h5 className='cv-category-title'>Collaborative projects</h5>
+                    <p><b>2023</b> Costumes for <i>Screens*Scream*Sex</i>, performance and short film by Isadora Alves, Salphinah Savin, Catherin Schöberl und Emilymary Whitaker</p>
                     <p><b>2021</b> SOFT EIS Presse, special limited edition cover for Issue 02, Berlin, Germany</p>
                     <p><b>2018</b> <i>Patatas Guerra</i>, nomadic exhibition series <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-
-                <h5 className='cv-category-title'>Summer Schools</h5>
-                    <p><b>2022</b> De Structura Forum, supported by Erasmus+, Tallinn, Estonia</p>
-                    <p><b>2021</b> Advanced Master Course, The Posthuman & New Materialism, Class of Rosi Braidotti, Utrecht University, Netherland</p>
 
                 <img className='arrow' src={arrowTop} alt='arrow' onClick={handleClick3} />
             </div>}
