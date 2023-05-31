@@ -75,7 +75,7 @@ const About = () => {
                     <p><b>2018</b> <i>Gut Feelings</i>, Centrala, Birmingham, UK</p>
                     <p><b>2018</b> <i>Collection Croisière, Nouvelle Collection Paris</i>, MO.CO. La Panacée, Montpellier, France</p>
                     <p><b>2018</b> <i>It's My Pleasure</i>, Artburst Berlin, OKK Organ kritischer Kunst, Berlin, Germany</p>
-                    <p><b>2018</b> <i>Love & Politics</i>, Chaosmos_/ 79Au, Athens, Greece</p>
+                    <p><b>2018</b> <i>Love & Politics</i>, Chaosmos, Athens, Greece</p>
                     <p><b>2018</b> <i>Endangered Bodies</i>, School of Art and Humanities, FLUL, Lisbon, Portugal</p>
                     <p><b>2018</b> <i>Queertech.io = ART (URL, IRL)</i>, ACMI, Australian Centre for the Moving Image, Melbourne, Australia</p>
                     <p><b>2017</b> <i>Techne Space</i>, virtual exhibition, The Wrong, New Digital Art Biennale</p>

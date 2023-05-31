@@ -31,7 +31,7 @@ const Contact = () => {
         <div className='contact-form'>
             <div className='contact-text'>
             <h5 className='contact-h5'>Get in touch</h5>
-            <h6 className='contact-h6'>To have a chat about all things art related or for any potential project or opportunity you have in mind, contact me.</h6>
+            <h6 className='contact-h6'>Feel free to reach out to me using the contact form below or the email address <ins>polettimiriam@gmail.com</ins>.</h6>
             </div>
             <form id='contact-form' ref={form} onSubmit={sendEmail}>
                 <ul>
