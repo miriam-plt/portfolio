@@ -66,8 +66,8 @@ const About = () => {
 
             {exhibitionsShown && <div className='cv-section exhibitions'>
                 <h5 className='cv-category-title'>Selected Exhibitions and Screenings</h5>
-                    <p><b>2023</b> <strong>upcoming</strong> <i>On the Texture of Feelings</i>, curated by Dare to Care collective, Myymälä2, Helsinki, Finland</p>
-                    <p><b>2022</b> <i>De Structura AR Art Evening</i>, Ukraina väljak, Lembitu park, Tallinn, Estonia</p>
+                    <p><b>2023</b> <strong>upcoming</strong> <i>Unveiling Structures</i>, Kogo Gallery, Tartu, Estonia </p>
+                    <p><b>2023</b> <i>On the Texture of Feelings</i>, Myymälä2, Helsinki, Finland</p>
                     <p><b>2020</b> <i>Lichtblick</i>, Kunsthalle am Hamburger Platz, Berlin, Germany</p>
                     <p><b>2020</b> <i>What is Fear?</i>, Hošek Contemporary, Berlin, Germany</p>
                     <p><b>2020</b> <i>What is Fear?</i>, virtual exhibition and short film festival, Thessaloniki Queer Art Festival, Thessaloniki, Greece</p>
@@ -96,7 +96,7 @@ const About = () => {
 
             {grantsShown && <div className='cv-section grants'>
                 <h5 className='cv-category-title'>Grants & Residencies</h5>
-                    <p><b>2023</b> <strong>upcoming</strong> Artist Residency, funded by the European Union and implemented by the Goethe-Institut, Myymälä2, Helsinki, Finland</p>
+                    <p><b>2023</b> Artist Residency, funded by the European Union and implemented by the Goethe-Institut, Myymälä2, Helsinki, Finland</p>
                     <p><b>2022</b> Research Residency, DeStructura, multidimensional pan-European initiative, co-funded by the European Union, Tallinn and Narva, Estonia</p>
                     <p><b>2016</b> Nomination Ricas Award, Milan, Italy</p>
                     <p><b>2015</b> Lombardi Croci Foundation study scholarship for Fine Arts</p>
