@@ -1,5 +1,23 @@
 [
    {
+      "_id": "sewing-circle",
+      "title": "Shoulder to Shoulder: sewing circle",
+      "year": "2023",
+      "category": "workshop",
+      "material": "",
+      "description": "What does it mean to be an artist in a global economy characterised by precarity and insecurity? How do working conditions affect mental health? And how do bodies react to accumulated stress and anxiety? During the participatory workshop 'Shoulder to Shoulder', art workers living in Helsinki were invited to participate in a sewing circle where they had the opportunity to connect the threads of their personal experiences.",
+      "details": "Workshop presented on 28.06.23 at Töölö library in Helsinki. Part of 'On the Texture of Feelings', an exhibition and public programme hosted by Myymälä2 Gallery and curated by Dare to Care collective. The project was supported by Culture Moves Europe, funded by the European Union and implemented by the Goethe-Institut, and TelepART Mobility Support, run by the Finnish Cultural and Research Institutes.",
+      "credits": [],
+      "image": "../../images/img11.png",
+      "img1": "../../images/sewing/sewing001.jpeg",
+      "img2": "../../images/sewing/sewing002.jpeg",
+      "img3": "../../images/sewing/sewing003.jpeg",
+      "img4": "../../images/sewing/sewing004.jpeg",
+      "img5": "../../images/sewing/sewing005.jpeg",
+      "img6": "../../images/sewing/sewing006.jpeg",
+      "img7": "../../images/sewing/sewing007.jpeg"
+   },
+   {
       "_id": "costumes-reharsal",
       "title": "Costumes for Screens*Scream*Sex - Public Rehearsal",
       "year": "2023",
