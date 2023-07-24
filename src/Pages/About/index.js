@@ -65,7 +65,7 @@ const About = () => {
 
             {exhibitionsShown && <div className='cv-section exhibitions'>
                 <h5 className='cv-category-title'>Selected Exhibitions and Screenings</h5>
-                    <p><b>2023</b> <strong>upcoming</strong> <i>Unveiling Structures</i>, Kogo Gallery, Tartu, Estonia </p>
+                    <p><b>2023</b> <i>Unveiling Structures</i>, Kogo Gallery, Tartu, Estonia </p>
                     <p><b>2023</b> <i>On the Texture of Feelings</i>, Myymälä2, Helsinki, Finland</p>
                     <p><b>2020</b> <i>Lichtblick</i>, Kunsthalle am Hamburger Platz, Berlin, Germany</p>
                     <p><b>2020</b> <i>What is Fear?</i>, Hošek Contemporary, Berlin, Germany</p>
@@ -114,7 +114,9 @@ const About = () => {
                     <p><b>2018</b><i>‘Lonely Girl Phenomenology‘</i>, Love & Politics, Freigeist Verlag, Berlin, Germany <a href="http://freigeist-verlag.net/buecher/love-politics/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
             
                 <h5 className='cv-category-title'>Collaborative projects</h5>
-                    <p><b>2023</b> Costumes for <i>Screens*Scream*Sex</i>, performance and short film by Isadora Alves, Salphinah Savin, Catherin Schöberl und Emilymary Whitaker</p>
+                    <p><b>2023</b> <i>Screens*Scream*Sex - Public Rehearsal</i>, Fondation Beyeler, Riehen, Switzerland</p>
+                    <p><b>2023</b> <i>Screens*Scream*Sex - On Pleasure</i>, Zentralwäscherei, Zürich, Switzerland</p>
+                    <p><b>2023</b> <i>Screens*Scream*Sex - Lecture Performance</i>, Kunstverein Freiburg, Germany</p>
                     <p><b>2021</b> SOFT EIS Presse, special limited edition cover for Issue 02, Berlin, Germany</p>
                     <p><b>2018</b> <i>Patatas Guerra</i>, nomadic exhibition series <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
 
