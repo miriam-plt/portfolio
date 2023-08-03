@@ -1,5 +1,23 @@
 [
    {
+      "_id": "shoulder-to-shoulder",
+      "title": "Shoulder to Shoulder",
+      "year": "2023",
+      "category": "installation",
+      "material": "sublimation print on microfiber, polyester filling",
+      "description": "During the participatory workshop 'Shoulder to Shoulder: sewing circle', art workers living in Helsinki were invited to participate in a sewing circle where they had the opportunity to connect the threads of their personal experiences. The artists were given a platform to actively engage with my work materials by creating new sculptures. The collaborative artworks by Cynthia Blanchette, Ania Duldiier, Jon Dunn, Moe Louanjli, Ines Montalvao, Mathilde Palenius, Cami Ruohonen and Kamila Śladowska have been exhibited in Myymälä2 Gallery in Helsinki.",
+      "details": "Workshop presented on 28.06.23 at Töölö library in Helsinki. Part of 'On the Texture of Feelings', an exhibition and public programme hosted by Myymälä2 Gallery and curated by Dare to Care collective. The project was supported by Culture Moves Europe, funded by the European Union and implemented by the Goethe-Institut, and TelepART Mobility Support, run by the Finnish Cultural and Research Institutes.",
+      "credits": [],
+      "image": "../../images/img12.png",
+      "img1": "../../images/shoulder/shoulder001.jpeg",
+      "img2": "../../images/shoulder/shoulder002.jpeg",
+      "img3": "../../images/shoulder/shoulder003.jpeg",
+      "img4": "../../images/shoulder/shoulder004.jpeg",
+      "img5": "../../images/shoulder/shoulder005.jpeg",
+      "img6": "../../images/shoulder/shoulder006.jpeg",
+      "img7": "../../images/shoulder/shoulder007.jpeg"
+   },
+   {
       "_id": "sewing-circle",
       "title": "Shoulder to Shoulder: sewing circle",
       "year": "2023",
