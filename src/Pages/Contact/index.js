@@ -31,7 +31,8 @@ const Contact = () => {
         <div className='contact-form'>
             <div className='contact-text'>
             <h5 className='contact-h5'>Get in touch</h5>
-            <h6 className='contact-h6'>Feel free to reach out to me using the contact form below or the email address <ins>polettimiriam@gmail.com</ins>.</h6>
+            <h6 className='contact-h6'>Feel free to reach out to me using the contact form below or the email address <a href="mailto:polettimiriam@gmail.com" target="_blank" rel="noreferrer" className='c-link'>polettimiriam@gmail.com</a>.
+            <br></br>Instagram: <a href="https://www.instagram.com/miriamakaib/" target="_blank" rel="noreferrer" className='c-link'>@miriamakaib</a></h6>
             </div>
             <form id='contact-form' ref={form} onSubmit={sendEmail}>
                 <ul>

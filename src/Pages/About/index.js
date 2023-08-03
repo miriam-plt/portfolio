@@ -102,23 +102,23 @@ const About = () => {
                     <p><b>2013</b> Nomination Bruno Starita Award, Naples, Italy</p>
      
                 <h5 className='cv-category-title'>Press</h5>
-                    <p><b>2019</b> <i>‘When Art, Fashion and Performance Collide‘</i>, Metal Magazine, January 2019 <a href="https://metalmagazine.eu/en/post/interview/sarah-nefissa-belhadjali-when-art-fashion-and-performance-collide" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                    <p><b>2018</b> <i>‘Patatas Guerra‘</i>, Earth Sciences, April 2018 <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                    <p><b>2018</b> <i>‘It's My Pleasure‘</i>, Artburst Berlin, April 2018, exhibition catalogue <a href="https://artburstberlin.de/onewebmedia/Ausstellungen%20und%20Events/It's%20My%20Pleasure%202018/Dokumentation_Its%20My%20Pleasure_Website.pdf" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                    <p><b>2018</b> <i>‘e-stranged love‘</i>, Jackie Liu (ed.), February 2018 <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                    <p><b>2014</b> <i>‘Girls Get Busy, Feminist Art and Writing‘</i>, Issue n. 23, November 2014 <a href="https://issuu.com/ggbzine/docs/ggb23" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2019</b> <i>‘When Art, Fashion and Performance Collide‘</i>, Metal Magazine, January 2019 <a href="https://metalmagazine.eu/en/post/interview/sarah-nefissa-belhadjali-when-art-fashion-and-performance-collide" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
+                    <p><b>2018</b> <i>‘Patatas Guerra‘</i>, Earth Sciences, April 2018 <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
+                    <p><b>2018</b> <i>‘It's My Pleasure‘</i>, Artburst Berlin, April 2018, exhibition catalogue <a href="https://artburstberlin.de/onewebmedia/Ausstellungen%20und%20Events/It's%20My%20Pleasure%202018/Dokumentation_Its%20My%20Pleasure_Website.pdf" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
+                    <p><b>2018</b> <i>‘e-stranged love‘</i>, Jackie Liu (ed.), February 2018 <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
+                    <p><b>2014</b> <i>‘Girls Get Busy, Feminist Art and Writing‘</i>, Issue n. 23, November 2014 <a href="https://issuu.com/ggbzine/docs/ggb23" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
 
                 <h5 className='cv-category-title'>Publications as author</h5>
-                    <p><b>2023</b> <strong>upcoming</strong> Reclaim Your City, SHIFT BOOKS </p>
-                    <p><b>2021</b><i>‘To Inhabit or To Fill Oneself‘</i>, SOFT EIS Issue 02: Identity, Berlin, Germany <a href="https://softeismagazine.com/shop/issue02/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
-                    <p><b>2018</b><i>‘Lonely Girl Phenomenology‘</i>, Love & Politics, Freigeist Verlag, Berlin, Germany <a href="http://freigeist-verlag.net/buecher/love-politics/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2023</b> <strong>upcoming</strong> <i>‘Confronting Monuments and their Heritage‘</i>, Reimagine Your City, SHIFT BOOKS </p>
+                    <p><b>2021</b><i>‘To Inhabit or To Fill Oneself‘</i>, SOFT EIS Issue 02: Identity, Berlin, Germany <a href="https://softeismagazine.com/shop/issue02/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
+                    <p><b>2018</b><i>‘Lonely Girl Phenomenology‘</i>, Love & Politics, Freigeist Verlag, Berlin, Germany <a href="http://freigeist-verlag.net/buecher/love-politics/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
             
                 <h5 className='cv-category-title'>Collaborative projects</h5>
                     <p><b>2023</b> <i>Screens*Scream*Sex - Public Rehearsal</i>, Fondation Beyeler, Riehen, Switzerland</p>
                     <p><b>2023</b> <i>Screens*Scream*Sex - On Pleasure</i>, Zentralwäscherei, Zürich, Switzerland</p>
                     <p><b>2023</b> <i>Screens*Scream*Sex - Lecture Performance</i>, Kunstverein Freiburg, Germany</p>
                     <p><b>2021</b> SOFT EIS Presse, special limited edition cover for Issue 02, Berlin, Germany</p>
-                    <p><b>2018</b> <i>Patatas Guerra</i>, nomadic exhibition series <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer"> [LINK] </a> </p>
+                    <p><b>2018</b> <i>Patatas Guerra</i>, nomadic exhibition series <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
 
                 <img className='arrow' src={arrowTop} alt='arrow' onClick={handleClick3} />
             </div>}
