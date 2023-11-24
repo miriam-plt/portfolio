@@ -111,8 +111,8 @@ const About = () => {
                     <p><b>2014</b> <i>‘Girls Get Busy, Feminist Art and Writing‘</i>, Issue n. 23, November 2014 <a href="https://issuu.com/ggbzine/docs/ggb23" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
 
                 <h5 className='cv-category-title'>Publications as author</h5>
-                    <p><b>2023</b> <strong>upcoming</strong> <i>‘Confronting Monuments and their Heritage‘</i>, Reimagine Your City, SHIFT BOOKS </p>
-                    <p><b>2021</b><i>‘To Inhabit or To Fill Oneself‘</i>, SOFT EIS Issue 02: Identity, Berlin, Germany <a href="https://softeismagazine.com/shop/issue02/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
+                    <p><b>2023</b><i>‘Confronting Monuments and their Heritage‘</i>, Reimagine Your City, SHIFT BOOKS <a href="https://shiftbooks.de/shop/reimagine-your-city/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
+                    <p><b>2021</b><i>‘To Inhabit or To Fill Oneself‘</i>, SOFT EIS Issue 02: Identity, Berlin, Germany <a href="https://www.softeismagazine.com/magazine/issue02-identity" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
                     <p><b>2018</b><i>‘Lonely Girl Phenomenology‘</i>, Love & Politics, Freigeist Verlag, Berlin, Germany <a href="http://freigeist-verlag.net/buecher/love-politics/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
             
                 <h5 className='cv-category-title'>Collaborative projects</h5>
