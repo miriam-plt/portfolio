@@ -97,6 +97,7 @@ const About = () => {
 
             {grantsShown && <div className='cv-section grants'>
                 <h5 className='cv-category-title'>Grants & Residencies</h5>
+                    <p><b>2024</b> Berlin Guest Prize promoted by Memoria Artística Chema Alvargonzalez, GlogauAIR, Berlin, Germany</p>
                     <p><b>2023</b> Artist Residency, funded by the European Union and implemented by the Goethe-Institut, Myymälä2, Helsinki, Finland</p>
                     <p><b>2022</b> Research Residency, DeStructura, multidimensional pan-European initiative, co-funded by the European Union, Tallinn and Narva, Estonia</p>
                     <p><b>2016</b> Nomination Ricas Award, Milan, Italy</p>
