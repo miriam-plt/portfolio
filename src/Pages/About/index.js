@@ -65,6 +65,7 @@ const About = () => {
 
             {exhibitionsShown && <div className='cv-section exhibitions'>
                 <h5 className='cv-category-title'>Selected Exhibitions and Screenings</h5>
+                    <p><b>2024</b> <i>A Thousand Gestures</i>, GlogauAIR, Berlin, Germany</p>
                     <p><b>2023</b> <i>Objects of Care</i>, Backhaus Projects, Berlin, Germany</p>
                     <p><b>2023</b> <i>Juxtapose Art Fair</i>, Aarhus, Denmark </p>
                     <p><b>2023</b> <i>Unveiling Structures</i>, Kogo Gallery, Tartu, Estonia </p>
