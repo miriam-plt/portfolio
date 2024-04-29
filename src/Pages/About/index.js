@@ -40,14 +40,16 @@ const About = () => {
                 <div className='about'>
                     <h6>Miriam Poletti (she/they) lives and works in Berlin, Germany.</h6>
                     <br />
-                    <h6>Her art practice is interdisciplinary and includes photography, sculpture, video and creative writing. 
-                    Their work seeks to question notions of tenderness, fragility and sociality on both a communal and individual level, 
-                    serving as an embodied methodology to create new models of social interaction. </h6>
+                    <h6>Her art practice includes photography, textile sculpture, video and creative writing. 
+                    Their work explores notions of tenderness, fragility and sociality on both a communal and individual level. 
+                    The work process itself serves as an embodied methodology to create new models of social interaction:
+                    through collaborations and workshops, the artworks are the result of a collective effort,
+                    questioning the idea of authorship and encouraging a sense of shared ownership. </h6>
                     <h6> 
-                    The body, investigated in its minimal alterations, is soft, weak, porous and easily shaped or even bruised by the proximity of the others. 
-                    The audience is invited to interact physically and viscerally with the works, squeezing or gently touching them, leaving their temporary 
+                    The body, investigated in its minimal alterations, is soft, weak, porous and easily shaped or even bruised by the proximity of others. 
+                    The audience is invited to interact physically with the works, squeezing or gently touching them, leaving their temporary 
                     imprint on them, drinking and consuming them, wearing them, making them their own. 
-                    The skin becomes a site of possibility in which the nature of the encounter is established through the performative process of touching.</h6>
+                    The skin becomes a site of possibility in which the nature of the encounter is determined through the performative act of touching.</h6>
                     <br />
                     <br />
                     
@@ -121,6 +123,7 @@ const About = () => {
                     <p><b>2023</b> <i>Screens*Scream*Sex - Public Rehearsal</i>, Fondation Beyeler, Riehen, Switzerland</p>
                     <p><b>2023</b> <i>Screens*Scream*Sex - On Pleasure</i>, Zentralwäscherei, Zürich, Switzerland</p>
                     <p><b>2023</b> <i>Screens*Scream*Sex - Lecture Performance</i>, Kunstverein Freiburg, Germany</p>
+                    <p><b>2023</b> <i>On The Brief All Encompassing Loss of Self</i>, film <a href="https://vimeo.com/841630995" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
                     <p><b>2021</b> SOFT EIS Presse, special limited edition cover for Issue 02, Berlin, Germany</p>
                     <p><b>2018</b> <i>Patatas Guerra</i>, nomadic exhibition series <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
 
