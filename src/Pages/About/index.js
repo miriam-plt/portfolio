@@ -42,7 +42,7 @@ const About = () => {
                     <br />
                     <h6>Her art practice includes photography, textile sculpture, video and creative writing. 
                     Their work explores notions of tenderness, fragility and sociality on both a communal and individual level. 
-                    The work process itself serves as an embodied methodology to create new models of social interaction:
+                    The work process itself serves as a methodology to create new models of social interaction:
                     through collaborations and workshops, the artworks are the result of a collective effort,
                     questioning the idea of authorship and encouraging a sense of shared ownership. </h6>
                     <h6> 
@@ -67,6 +67,7 @@ const About = () => {
 
             {exhibitionsShown && <div className='cv-section exhibitions'>
                 <h5 className='cv-category-title'>Selected Exhibitions and Screenings</h5>
+                    <p><b>2024</b> <i>Who do we leave behind when we come together?</i>, GLU Festival, Mescherin, Germany</p>
                     <p><b>2024</b> <i>A Thousand Gestures</i>, GlogauAIR, Berlin, Germany</p>
                     <p><b>2023</b> <i>Objects of Care</i>, Backhaus Projects, Berlin, Germany</p>
                     <p><b>2023</b> <i>Juxtapose Art Fair</i>, Aarhus, Denmark </p>
@@ -93,6 +94,12 @@ const About = () => {
                     <p><b>2016</b> <i>Accademia Aperta</i>, Brera Academy of Fine Arts, Milan, Italy</p>
                     <p><b>2016</b> <i>Era pacifica pare</i>, Ricas Award, Careof, Milan, Italy</p>
                     <p><b>2015</b> <i>Salon</i>, University of Milano Bicocca, Milan, Italy</p>
+
+                    <h5 className='cv-category-title'>Workshops</h5>
+                    <p><b>2024</b> <i>Stitching Closeness: Sewing Circle</i>, May 2024, Overflow, Berlin, Germany</p>
+                    <p><b>2024</b> <i>A Thousand Gesture: Sewing Circles</i>, January-March 2024, GlogauAIR, Berlin, Germany</p>
+                    <p><b>2023</b> <i>Nest: Sewing Circle</i>, November 2023, Backhaus Projects, Berlin, Germany</p>
+                    <p><b>2023</b> <i>Shoulder to Shoulder: Sewing Circle</i>, June 2023, Töölö library, Helsinki, Finland</p>
                     
                 <img className='arrow' src={arrowDown} alt='arrow' onClick={handleClick2} />
             </div>}
