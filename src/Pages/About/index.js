@@ -50,8 +50,6 @@ const About = () => {
                     The audience is invited to interact physically with the works, squeezing or gently touching them, leaving their temporary 
                     imprint on them, drinking and consuming them, wearing them, making them their own. 
                     The skin becomes a site of possibility in which the nature of the encounter is determined through the performative act of touching.</h6>
-                    <br />
-                    <br />
                     
                 </div>
 
@@ -67,7 +65,9 @@ const About = () => {
 
             {exhibitionsShown && <div className='cv-section exhibitions'>
                 <h5 className='cv-category-title'>Selected Exhibitions and Screenings</h5>
-                    <p><b>2024</b> <i>Who do we leave behind when we come together?</i>, GLU Festival, Mescherin, Germany</p>
+                    <p><b>2025</b> <i>When the body is queer, I feel free</i>, GlogauAIR, Berlin, Germany</p>
+                    <p><b>2025</b> <i>.linkinglives//.</i>, Bardo Projektraum, Berlin, Germany</p>
+                    <p><b>2025</b> <i>AlterNative</i>, 90mil, Berlin, Germany</p>
                     <p><b>2024</b> <i>A Thousand Gestures</i>, GlogauAIR, Berlin, Germany</p>
                     <p><b>2023</b> <i>Objects of Care</i>, Backhaus Projects, Berlin, Germany</p>
                     <p><b>2023</b> <i>Juxtapose Art Fair</i>, Aarhus, Denmark </p>
@@ -96,8 +96,10 @@ const About = () => {
                     <p><b>2015</b> <i>Salon</i>, University of Milano Bicocca, Milan, Italy</p>
 
                     <h5 className='cv-category-title'>Workshops</h5>
+                    <p><b>2025</b> <i>A Thousand Gestures: Sewing Circle</i>, January 2025, Bardo Projektraum, Berlin, Germany</p>
+                    <p><b>2025</b> <i>Stitching Closeness: Sewing Circle</i>, January 2025, Overflow, Berlin, Germany</p>
                     <p><b>2024</b> <i>Stitching Closeness: Sewing Circle</i>, May 2024, Overflow, Berlin, Germany</p>
-                    <p><b>2024</b> <i>A Thousand Gesture: Sewing Circles</i>, January-March 2024, GlogauAIR, Berlin, Germany</p>
+                    <p><b>2024</b> <i>A Thousand Gestures: Sewing Circles</i>, January-March 2024, GlogauAIR, Berlin, Germany</p>
                     <p><b>2023</b> <i>Nest: Sewing Circle</i>, November 2023, Backhaus Projects, Berlin, Germany</p>
                     <p><b>2023</b> <i>Shoulder to Shoulder: Sewing Circle</i>, June 2023, Töölö library, Helsinki, Finland</p>
                     
