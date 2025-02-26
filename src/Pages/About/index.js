@@ -109,6 +109,7 @@ const About = () => {
 
             {grantsShown && <div className='cv-section grants'>
                 <h5 className='cv-category-title'>Grants & Residencies</h5>
+                    <p><b>2025</b> Project grant by Art Rights Truth, funded by Amnesty International and the Arts and Humanities Research Council at the University of York, UK</p>
                     <p><b>2024</b> Berlin Guest Prize promoted by Memoria Artística Chema Alvargonzalez, GlogauAIR, Berlin, Germany</p>
                     <p><b>2023</b> Artist Residency, funded by the European Union and implemented by the Goethe-Institut, Myymälä2, Helsinki, Finland</p>
                     <p><b>2022</b> Research Residency, DeStructura, multidimensional pan-European initiative, co-funded by the European Union, Tallinn and Narva, Estonia</p>
@@ -117,6 +118,7 @@ const About = () => {
                     <p><b>2013</b> Nomination Bruno Starita Award, Naples, Italy</p>
      
                 <h5 className='cv-category-title'>Press</h5>
+                    <p><b>2025</b> <i>‘Linking Lives interview with the artist‘</i>, Karne Kunst, February 2025 <a href="https://www.karnekunst.com/linking-lives-exhibition-interview-with-the-artist-miriam-poletti/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
                     <p><b>2019</b> <i>‘When Art, Fashion and Performance Collide‘</i>, Metal Magazine, January 2019 <a href="https://metalmagazine.eu/en/post/interview/sarah-nefissa-belhadjali-when-art-fashion-and-performance-collide" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
                     <p><b>2018</b> <i>‘Patatas Guerra‘</i>, Earth Sciences, April 2018 <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
                     <p><b>2018</b> <i>‘It's My Pleasure‘</i>, Artburst Berlin, April 2018, exhibition catalogue <a href="https://artburstberlin.de/onewebmedia/Ausstellungen%20und%20Events/It's%20My%20Pleasure%202018/Dokumentation_Its%20My%20Pleasure_Website.pdf" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
