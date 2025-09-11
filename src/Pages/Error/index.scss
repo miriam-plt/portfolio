@@ -1,9 +1,4 @@
-@font-face {
-    font-family: 'LeagueSpartan-Bold';
-    src: url('../../assets/font/LeagueSpartan-Bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url("https://use.typekit.net/koc0urx.css");
 
 .error-page {
     display: flex;
@@ -14,7 +9,7 @@
 }
 
 .error-title {
-    font-family: 'LeagueSpartan-Bold';
+    font-family: "almarai", sans-serif;
     -webkit-text-stroke: 2px black;
     color: #f4f0f0;
     font-size: 55px;

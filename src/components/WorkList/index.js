@@ -12,6 +12,7 @@ function WorkList() {
         <Navbar />
         
         <div className='menu'>
+        {window.scrollTo(0,0)}
             <div className='menu__item'>
                 {WorksData.map(work => {
                     return (
