@@ -40,16 +40,10 @@ const About = () => {
                 <div className='about'>
                     <h6>Miriam Poletti (she/they) lives and works in Berlin, Germany.</h6>
                     <br />
-                    <h6>Her art practice includes photography, textile sculpture, video and creative writing. 
-                    Their work explores notions of tenderness, fragility and sociality on both a communal and individual level. 
-                    The work process itself serves as a methodology to create new models of social interaction:
-                    through collaborations and workshops, the artworks are the result of a collective effort,
-                    questioning the idea of authorship and encouraging a sense of shared ownership. </h6>
+                    <h6>Their artistic practice includes photography, textile sculpture, video, and creative writing. 
+                    Their work explores the concept of softness as a way of creating community, and is heavily influenced by their interactions with the people they collaborate with. The creative process itself serves as a methodology for generating new models of social relations: through collaborations and workshops, the artworks are the result of a collective effort, challenging the idea of authorship and encouraging a sense of shared ownership. </h6>
                     <h6> 
-                    The body, investigated in its minimal alterations, is soft, weak, porous and easily shaped or even bruised by the proximity of others. 
-                    The audience is invited to interact physically with the works, squeezing or gently touching them, leaving their temporary 
-                    imprint on them, drinking and consuming them, wearing them, making them their own. 
-                    The skin becomes a site of possibility in which the nature of the encounter is determined through the performative act of touching.</h6>
+                    The softness of the bodies inhabiting the workshop spaces is reflected in the artworks, where skin becomes a place of potential encounter. Touch is not forbidden, but actively encouraged. Visitors are invited to physically interact with the artworks, hugging, squeezing or gently touching them, leaving their temporary imprint on them. By activating the works with their own bodies, viewers abandon their role as passive consumers and become an integral part of the artworks themselves.</h6>
                     
                 </div>
 
@@ -67,10 +61,10 @@ const About = () => {
                 <h5 className='cv-category-title'>Selected Exhibitions and Screenings</h5>
                     <p><b>2025</b> <i>When the body is queer, I feel free</i>, GlogauAIR, Berlin, Germany</p>
                     <p><b>2025</b> <i>.linkinglives//.</i>, Bardo Projektraum, Berlin, Germany</p>
+                    <p><b>2025</b> <i>Berlinale</i>, Galeria Azur, Berlin, Germany</p>
                     <p><b>2025</b> <i>AlterNative</i>, 90mil, Berlin, Germany</p>
                     <p><b>2024</b> <i>A Thousand Gestures</i>, GlogauAIR, Berlin, Germany</p>
                     <p><b>2023</b> <i>Objects of Care</i>, Backhaus Projects, Berlin, Germany</p>
-                    <p><b>2023</b> <i>Juxtapose Art Fair</i>, Aarhus, Denmark </p>
                     <p><b>2023</b> <i>Unveiling Structures</i>, Kogo Gallery, Tartu, Estonia </p>
                     <p><b>2023</b> <i>On the Texture of Feelings</i>, Myymälä2, Helsinki, Finland</p>
                     <p><b>2020</b> <i>Lichtblick</i>, Kunsthalle am Hamburger Platz, Berlin, Germany</p>
@@ -96,6 +90,7 @@ const About = () => {
                     <p><b>2015</b> <i>Salon</i>, University of Milano Bicocca, Milan, Italy</p>
 
                     <h5 className='cv-category-title'>Workshops</h5>
+                    <p><b>2025</b> <i>Gear Up: Making a kit for protest</i>, w/ Jona Wolf & abstraqt, April-May 2025, 90mil, Berlin, Germany</p>
                     <p><b>2025</b> <i>A Thousand Gestures: Sewing Circle</i>, January 2025, Bardo Projektraum, Berlin, Germany</p>
                     <p><b>2025</b> <i>Stitching Closeness: Sewing Circle</i>, January 2025, Overflow, Berlin, Germany</p>
                     <p><b>2024</b> <i>Stitching Closeness: Sewing Circle</i>, May 2024, Overflow, Berlin, Germany</p>
@@ -118,24 +113,21 @@ const About = () => {
                     <p><b>2013</b> Nomination Bruno Starita Award, Naples, Italy</p>
      
                 <h5 className='cv-category-title'>Press</h5>
-                    <p><b>2025</b> <i>‘Linking Lives interview with the artist‘</i>, Karne Kunst, February 2025 <a href="https://www.karnekunst.com/linking-lives-exhibition-interview-with-the-artist-miriam-poletti/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
-                    <p><b>2019</b> <i>‘When Art, Fashion and Performance Collide‘</i>, Metal Magazine, January 2019 <a href="https://metalmagazine.eu/en/post/interview/sarah-nefissa-belhadjali-when-art-fashion-and-performance-collide" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
+                    <p><b>2025</b> <i>‘Linking Lives interview with the artist: Miriam Poletti‘</i>, Karne Kunst, February 2025 <a href="https://www.karnekunst.com/linking-lives-exhibition-interview-with-the-artist-miriam-poletti/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
                     <p><b>2018</b> <i>‘Patatas Guerra‘</i>, Earth Sciences, April 2018 <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
                     <p><b>2018</b> <i>‘It's My Pleasure‘</i>, Artburst Berlin, April 2018, exhibition catalogue <a href="https://artburstberlin.de/onewebmedia/Ausstellungen%20und%20Events/It's%20My%20Pleasure%202018/Dokumentation_Its%20My%20Pleasure_Website.pdf" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
-                    <p><b>2018</b> <i>‘e-stranged love‘</i>, Jackie Liu (ed.), February 2018 <a href="https://estrangedlove.neocities.org/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
-                    <p><b>2014</b> <i>‘Girls Get Busy, Feminist Art and Writing‘</i>, Issue n. 23, November 2014 <a href="https://issuu.com/ggbzine/docs/ggb23" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
 
                 <h5 className='cv-category-title'>Publications as author</h5>
-                    <p><b>2023</b><i>‘Confronting Monuments and their Heritage‘</i>, Reimagine Your City, SHIFT BOOKS <a href="https://shiftbooks.de/shop/reimagine-your-city/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
-                    <p><b>2021</b><i>‘To Inhabit or To Fill Oneself‘</i>, SOFT EIS Issue 02: Identity, Berlin, Germany <a href="https://www.softeismagazine.com/magazine/issue02-identity" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
-                    <p><b>2018</b><i>‘Lonely Girl Phenomenology‘</i>, Love & Politics, Freigeist Verlag, Berlin, Germany <a href="http://freigeist-verlag.net/buecher/love-politics/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
+                    <p><b>2023</b><i>‘Confronting Monuments and their Heritage‘</i>, Reimagine Your City, SHIFT BOOKS </p>
+                    <p><b>2021</b><i>‘To Inhabit or To Fill Oneself‘</i>, SOFT EIS Issue 02: Identity, Berlin, Germany </p>
+                    <p><b>2018</b><i>‘Lonely Girl Phenomenology‘</i>, Love & Politics, Freigeist Verlag, Berlin, Germany </p>
             
                 <h5 className='cv-category-title'>Collaborative projects</h5>
+                    <p><b>2025</b> <i>Gear Up!</i>, Workshop series and zines, 90mil, Berlin, Germany</p>
                     <p><b>2023</b> <i>Screens*Scream*Sex - Public Rehearsal</i>, Fondation Beyeler, Riehen, Switzerland</p>
                     <p><b>2023</b> <i>Screens*Scream*Sex - On Pleasure</i>, Zentralwäscherei, Zürich, Switzerland</p>
                     <p><b>2023</b> <i>Screens*Scream*Sex - Lecture Performance</i>, Kunstverein Freiburg, Germany</p>
                     <p><b>2023</b> <i>On The Brief All Encompassing Loss of Self</i>, film <a href="https://vimeo.com/841630995" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
-                    <p><b>2021</b> SOFT EIS Presse, special limited edition cover for Issue 02, Berlin, Germany</p>
                     <p><b>2018</b> <i>Patatas Guerra</i>, nomadic exhibition series <a href="https://sciences.earth/patatas-guerra/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
 
                 <img className='arrow' src={arrowTop} alt='arrow' onClick={handleClick3} />
