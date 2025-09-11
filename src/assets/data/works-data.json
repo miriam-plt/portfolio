@@ -1,5 +1,23 @@
 [
    {
+      "_id": "gear-up",
+      "title": "Gear Up! Protest Toolkit",
+      "year": "2025",
+      "category": "workshop",
+      "material": "90mil, Berlin",
+      "description": "'Gear Up!' is a project created in response to the repression of protests in Germany, which intensified after 7 October 2023, targeting the Palestine solidarity movement. It aims to create spaces for exchange and creative tools to give people the opportunity to act autonomously or find their way into activism. Through a series of workshops, we assembled protest kits and sewed vests together with participants to carry the tools easily to demonstrations. During the workshops, zines were distributed offering practical information for protesters and examples of protest tools and how they have been used in previous international actions. The collective act of sewing becomes a method for community-building, mutual learning, and reimagining resistance. Each workshop invites participants to reflect on what it means to materially and symbolically 'gear up' in increasingly surveilled and criminalised protest environments.",
+      "details": "'Gear Up!' is a collaboration between Miriam Poletti, abstraqt and Jona Wolf, supported by Amnesty International and Art Rights Truth - Centre for Applied Human Rights and the History of Art Department at the University of York. The project continues to grow through ongoing dialogue with activists, lawyers and journalists.",
+      "credits": ["All photo credits to Simona Radici."],
+      "image": "../../images/img16.png",
+      "img1": "../../images/gearup/gearup001.jpg",
+      "img2": "../../images/gearup/gearup002.jpg",
+      "img3": "../../images/gearup/gearup003.jpg",
+      "img4": "../../images/gearup/gearup004.jpg",
+      "img5": "../../images/gearup/gearup005.jpg",
+      "img6": "../../images/gearup/gearup006.jpg",
+      "img7": "../../images/gearup/gearup007.jpg"
+   },
+   {
       "_id": "thousand-gestures",
       "title": "A Thousand Gestures",
       "year": "2024",
@@ -20,7 +38,7 @@
    {
       "_id": "thousand-gestures-sewing",
       "title": "A Thousand Gestures: Sewing Circles",
-      "year": "2023",
+      "year": "2024",
       "category": "workshops",
       "material": "GlogauAIR, Berlin",
       "description": "Between January and March 2024, several sewing workshops were held at GlogauAIR in Berlin as part of the exhibition project 'A Thousand Gestures'. The first workshops with the artists-in-residence served to develop the interactive works to be presented at the opening of the show. During the course of the exhibition, a further workshop allowed visitors to add their own contribution to the installation. The gallery space became an opportunity for confrontation and collective work. The bodies that animated the space during the sewing sessions left a trace of themselves until the conclusion of the exhibition. The fabrics will then be used for other projects, accumulating interventions from different people, in a continuous evolving process.",
