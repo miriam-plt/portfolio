@@ -1,11 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://use.typekit.net/koc0urx.css");
 
-@font-face {
-    font-family: 'LeagueSpartan-Bold';
-    src: url('../../assets/font/LeagueSpartan-Bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 .container {
     display: flex;
@@ -145,7 +139,7 @@
 }
 
 .contact-h5 {
-    font-family: 'LeagueSpartan-Bold';
+    font-family: "almarai", sans-serif;
     -webkit-text-stroke: 2px black;
     color: #f4f0f0;
     font-size: 65px;
@@ -155,11 +149,12 @@
         font-size: 41px;
         margin-top: 0;
     }
+    
 }
 
 .contact-h6 {
-    margin-top: 15px;
-    font-size: 12px;
+    margin-top: 0px;
+    font-size: 14px;
 }
 
 .contact-text {
