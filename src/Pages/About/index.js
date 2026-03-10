@@ -59,6 +59,7 @@ const About = () => {
 
             {exhibitionsShown && <div className='cv-section exhibitions'>
                 <h5 className='cv-category-title'>Selected Exhibitions and Screenings</h5>
+                    <p><b>2026</b> <i>Songs of Uprising</i>, Pandora Gallery, Berlin, Germany</p>
                     <p><b>2025</b> <i>When the body is queer, I feel free</i>, GlogauAIR, Berlin, Germany</p>
                     <p><b>2025</b> <i>.linkinglives//.</i>, Bardo Projektraum, Berlin, Germany</p>
                     <p><b>2025</b> <i>Berlinale</i>, Galeria Azur, Berlin, Germany</p>
@@ -89,7 +90,11 @@ const About = () => {
                     <p><b>2016</b> <i>Era pacifica pare</i>, Ricas Award, Careof, Milan, Italy</p>
                     <p><b>2015</b> <i>Salon</i>, University of Milano Bicocca, Milan, Italy</p>
 
-                    <h5 className='cv-category-title'>Workshops</h5>
+                    <h5 className='cv-category-title'>Workshops & Talks</h5>
+                    <p><b>2026</b> <i>Who Do We Leave Behind When We Come Together?</i>, January 2026, Das Gift, Berlin, Germany</p>
+                    <p><b>2025</b> <i>Talk: Sustaining Creative Resistance</i>, part of "Activism Futures: Reimagining Human Rights Activism", November 2025, Kairos, London</p>
+                    <p><b>2025</b> <i>Podcast: Artistic Denunciation and New Ways of Doing Human Rights</i>, November 2025, “Rights in Dialogue: Voices in Art and Activism”</p>
+                    <p><b>2025</b> <i>Gear Up: Making a kit for protest</i>, September 2025, Leila, Milan, Italy</p>
                     <p><b>2025</b> <i>Gear Up: Making a kit for protest</i>, w/ Jona Wolf & abstraqt, April-May 2025, 90mil, Berlin, Germany</p>
                     <p><b>2025</b> <i>A Thousand Gestures: Sewing Circle</i>, January 2025, Bardo Projektraum, Berlin, Germany</p>
                     <p><b>2025</b> <i>Stitching Closeness: Sewing Circle</i>, January 2025, Overflow, Berlin, Germany</p>
@@ -104,7 +109,7 @@ const About = () => {
 
             {grantsShown && <div className='cv-section grants'>
                 <h5 className='cv-category-title'>Grants & Residencies</h5>
-                    <p><b>2025</b> Project grant by Art Rights Truth, funded by Amnesty International and the Arts and Humanities Research Council at the University of York, UK</p>
+                    <p><b>2025</b> Art Rights Truth  Project Grant, funded by Amnesty International and the Arts and Humanities Research Council at the University of York, UK</p>
                     <p><b>2024</b> Berlin Guest Prize promoted by Memoria Artística Chema Alvargonzalez, GlogauAIR, Berlin, Germany</p>
                     <p><b>2023</b> Artist Residency, funded by the European Union and implemented by the Goethe-Institut, Myymälä2, Helsinki, Finland</p>
                     <p><b>2022</b> Research Residency, DeStructura, multidimensional pan-European initiative, co-funded by the European Union, Tallinn and Narva, Estonia</p>
