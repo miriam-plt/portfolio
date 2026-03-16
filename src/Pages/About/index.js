@@ -40,10 +40,10 @@ const About = () => {
                 <div className='about'>
                     <h6>Miriam Poletti (she/they) lives and works in Berlin, Germany.</h6>
                     <br />
-                    <h6>Their artistic practice includes photography, textile sculpture, video, and creative writing. 
-                    Their work explores the concept of softness as a way of creating community, and is heavily influenced by their interactions with the people they collaborate with. The creative process itself serves as a methodology for generating new models of social relations: through collaborations and workshops, the artworks are the result of a collective effort, challenging the idea of authorship and encouraging a sense of shared ownership. </h6>
+                    <h6>Their artistic practice centers on textile sculpture and participatory tactile experience. 
+                    Their work explores softness as a radical act of creating community, and is heavily influenced by their interactions with the people they collaborate with. The creative process functions as a model for social relations: through collaborative workshops, artworks are the result of a collective effort, challenging traditional authorship to encourage shared ownership and solidarity.</h6>
                     <h6> 
-                    The softness of the bodies inhabiting the workshop spaces is reflected in the artworks, where skin becomes a place of potential encounter. Touch is not forbidden, but actively encouraged. Visitors are invited to physically interact with the artworks, hugging, squeezing or gently touching them, leaving their temporary imprint on them. By activating the works with their own bodies, viewers abandon their role as passive consumers and become an integral part of the artworks themselves.</h6>
+                    The tactile nature of textile becomes a medium for encounter, where skin and fiber intersect. Touch is not forbidden, but actively encouraged. Visitors are invited to physically engage with the artworks — hugging, squeezing, or gently touching them. By activating these textile environments with their own bodies, viewers abandon passive consumption to become integral co-creators in a living network of support.</h6>
                     
                 </div>
 
@@ -60,13 +60,16 @@ const About = () => {
             {exhibitionsShown && <div className='cv-section exhibitions'>
                 <h5 className='cv-category-title'>Selected Exhibitions and Screenings</h5>
                     <p><b>2026</b> <i>Songs of Uprising</i>, Pandora Gallery, Berlin, Germany</p>
+                    <p><b>2025</b> <i>The Art of Activism</i>, Prague City Gallery, Prague, Czechia</p>
                     <p><b>2025</b> <i>When the body is queer, I feel free</i>, GlogauAIR, Berlin, Germany</p>
                     <p><b>2025</b> <i>.linkinglives//.</i>, Bardo Projektraum, Berlin, Germany</p>
                     <p><b>2025</b> <i>Berlinale</i>, Galeria Azur, Berlin, Germany</p>
                     <p><b>2025</b> <i>AlterNative</i>, 90mil, Berlin, Germany</p>
                     <p><b>2024</b> <i>A Thousand Gestures</i>, GlogauAIR, Berlin, Germany</p>
+                    <p><b>2023</b> <i>Postcards for Palestine: Humanitarian Fundraising Exhibition</i>, Claire de Rouen Books, London, UK</p>
+                    <p><b>2023</b> <i>Postcards for Palestine: Humanitarian Fundraising Exhibition</i>, Berlinskej Model, Prague, Czechia</p>
                     <p><b>2023</b> <i>Objects of Care</i>, Backhaus Projects, Berlin, Germany</p>
-                    <p><b>2023</b> <i>Unveiling Structures</i>, Kogo Gallery, Tartu, Estonia </p>
+                    <p><b>2023</b> <i>Unveiling Structures</i>, Kogo Gallery, Tartu, Estonia</p>
                     <p><b>2023</b> <i>On the Texture of Feelings</i>, Myymälä2, Helsinki, Finland</p>
                     <p><b>2020</b> <i>Lichtblick</i>, Kunsthalle am Hamburger Platz, Berlin, Germany</p>
                     <p><b>2020</b> <i>What is Fear?</i>, Hošek Contemporary, Berlin, Germany</p>
@@ -86,9 +89,7 @@ const About = () => {
                     <p><b>2017</b> <i>High Sugar // Heavy Metals</i>, Palazzo Pascoli, Pavia, Italy</p>
                     <p><b>2016</b> <i>Cybertwee Virtual Headquarters</i>, virtual exhibition, Cybertwee HQ App</p>
                     <p><b>2016</b> <i>Sguardi sulla pietra</i>, Tones on the Stones, Historic Quarry of Croppo of Trontano, VCO, Italy</p>
-                    <p><b>2016</b> <i>Accademia Aperta</i>, Brera Academy of Fine Arts, Milan, Italy</p>
-                    <p><b>2016</b> <i>Era pacifica pare</i>, Ricas Award, Careof, Milan, Italy</p>
-                    <p><b>2015</b> <i>Salon</i>, University of Milano Bicocca, Milan, Italy</p>
+                    <p><b>2016</b> <i>Era pacifica pare</i>, Careof, Milan, Italy</p>
 
                     <h5 className='cv-category-title'>Workshops & Talks</h5>
                     <p><b>2026</b> <i>Who Do We Leave Behind When We Come Together?</i>, January 2026, Das Gift, Berlin, Germany</p>
@@ -109,13 +110,12 @@ const About = () => {
 
             {grantsShown && <div className='cv-section grants'>
                 <h5 className='cv-category-title'>Grants & Residencies</h5>
-                    <p><b>2025</b> Art Rights Truth  Project Grant, funded by Amnesty International and the Arts and Humanities Research Council at the University of York, UK</p>
+                    <p><b>2025</b> Art Rights Truth Project Grant, funded by Amnesty International and the Arts and Humanities Research Council at the University of York, UK</p>
                     <p><b>2024</b> Berlin Guest Prize promoted by Memoria Artística Chema Alvargonzalez, GlogauAIR, Berlin, Germany</p>
                     <p><b>2023</b> Artist Residency, funded by the European Union and implemented by the Goethe-Institut, Myymälä2, Helsinki, Finland</p>
                     <p><b>2022</b> Research Residency, DeStructura, multidimensional pan-European initiative, co-funded by the European Union, Tallinn and Narva, Estonia</p>
                     <p><b>2016</b> Nomination Ricas Award, Milan, Italy</p>
                     <p><b>2015</b> Lombardi Croci Foundation study scholarship for Fine Arts</p>
-                    <p><b>2013</b> Nomination Bruno Starita Award, Naples, Italy</p>
      
                 <h5 className='cv-category-title'>Press</h5>
                     <p><b>2025</b> <i>‘Linking Lives interview with the artist: Miriam Poletti‘</i>, Karne Kunst, February 2025 <a href="https://www.karnekunst.com/linking-lives-exhibition-interview-with-the-artist-miriam-poletti/" target="_blank" rel="noreferrer" className='a-link'> [LINK] </a> </p>
