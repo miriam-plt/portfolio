@@ -1,9 +1,26 @@
 [
    {
+      "_id": "ricordi",
+      "title": "Ti ricordi come sarà?",
+      "year": "2026",
+      "category": "workshops",
+      "material": "Val di Fiastra, Marche, Italy",
+      "description": "‘Ti ricordi come sarà?’ (‘Do You Remember How It Will Be?’), developed in Val di Fiastra (Marche), explores territorial regeneration through participatory artistic practices. Through collaborative workshops on sewing, embroidery, and traditional wheat straw weaving, the project promoted intergenerational dialogue among the elderly—as custodians of traditional knowledge—young people, and children. Together, the participants created flags using donated bridal trousseau fabrics, featuring motifs that embody the region’s collective memories and symbols, and crafted straw weavings, preserving traditional craft techniques and strengthening community connections.",
+      "details": "The project is in collaboration with ASFO dal basso e Borgofuturo and is supported by Associazione Oltre... APS as part of the European CultureAndHealth platform.",
+      "image": "../../images/img17.png",
+      "img1": "../../images/ricordi/ricordi001.jpg",
+      "img2": "../../images/ricordi/ricordi002.jpg",
+      "img3": "../../images/ricordi/ricordi003.jpg",
+      "img4": "../../images/ricordi/ricordi004.jpg",
+      "img5": "../../images/ricordi/ricordi005.jpg",
+      "img6": "../../images/ricordi/ricordi006.jpg",
+      "img7": "../../images/ricordi/ricordi007.jpg"
+   },
+   {
       "_id": "gear-up",
       "title": "Gear Up! Protest Toolkit",
       "year": "2025",
-      "category": "workshop",
+      "category": "workshops",
       "material": "90mil, Berlin",
       "description": "Born from the urgent need to support the Palestine solidarity movement amidst intensifying repression in Germany post-October 2023, 'Gear Up!' transforms textile work into a tool for activism and mutual aid. Through collective sewing workshops, participants co-create protest vests and kits, with a focus on physical and mental well-being during political actions. Distributed alongside practical zines on international protest tactics, these textile artifacts are designed to be worn and activated. The workshop space invites a tactile engagement, turning the preparation for demonstration into a moment of care and solidarity. By materially and symbolically 'gearing up' together, participants reimagine resistance not as a solitary burden, but as a woven network of support. ",
       "details": "'Gear Up!' is a collaboration between Miriam Poletti, abstraqt and Jona Wolf, supported by Amnesty International and Art Rights Truth - Centre for Applied Human Rights and the History of Art Department at the University of York. The project continues to grow through ongoing dialogue with activists, lawyers and journalists.",
