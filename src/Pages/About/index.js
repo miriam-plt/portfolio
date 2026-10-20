@@ -1,5 +1,5 @@
 import './index.scss';
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import Navbar from '../../components/Navbar';
 import arrowDown from '../../images/arrow_circle_down.png';
 import arrowTop from '../../images/arrow-back-top.png';
@@ -8,6 +8,10 @@ const About = () => {
     const [eduShown, setEduShown] = useState(true);
     const [exhibitionsShown, setExhibitionsShown] = useState(false);
     const [grantsShown, setGrantsShown] = useState(false);
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, []);
 
     const handleClick1 = e => {
         setEduShown(current => !current);
@@ -30,7 +34,6 @@ const About = () => {
 
     return (
     <div>
-     {window.scrollTo(0,0)}
         <Navbar />
 
         <div className='cv'>

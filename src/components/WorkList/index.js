@@ -1,4 +1,5 @@
 import './index.scss';
+import { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import Navbar from '../Navbar';
 import Work from '../Work';
@@ -6,13 +7,15 @@ import WorksData from '../../assets/data/works-data.json';
 
 
 function WorkList() {
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, []);
 
     return (
         <div>
         <Navbar />
         
         <div className='menu'>
-        {window.scrollTo(0,0)}
             <div className='menu__item'>
                 {WorksData.map(work => {
                     return (
